@@ -1,0 +1,13 @@
+"input" in: gf180mcu_density.lydrc:15
+    Polygons (raw): 2 (flat)  2 (hierarchical)
+    Elapsed: 0.210s  Memory: 974.00M
+"area" in: gf180mcu_density.lydrc:17
+    Elapsed: 0.260s  Memory: 997.00M
+"polygons" in: gf180mcu_density.lydrc:19
+    Polygons (raw): 0 (flat)  0 (hierarchical)
+    Elapsed: 0.000s  Memory: 997.00M
+"area" in: gf180mcu_density.lydrc:19
+    Elapsed: 0.000s  Memory: 997.00M
+comp_density is 0.0
+Writing report database: /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/outputs/reports/klayout_met_min_ca_density_check.xml ..
+Total elapsed: 3.700s  Memory: 960.00M

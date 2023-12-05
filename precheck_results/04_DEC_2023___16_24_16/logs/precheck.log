@@ -1,0 +1,84 @@
+2023-12-04 16:24:16 - [INFO] - {{EXTRACTING FILES}} Extracting compressed files in: /home/mc/encryption_caravel_user_project
+2023-12-04 16:24:19 - [INFO] - {{Project Type Info}} digital
+2023-12-04 16:24:19 - [INFO] - {{Project GDS Info}} user_project_wrapper: cb57a9821ff295856e61fe61480345095de49ad5
+2023-12-04 16:24:19 - [INFO] - {{Tools Info}} KLayout: v0.28.12 | Magic: v8.3.442
+2023-12-04 16:24:19 - [INFO] - {{PDKs Info}} GF180MCUD: a897aa30369d3bcec87d9d50ce9b01f320f854ef | Open PDKs: e0f692f46654d6c7c99fc70a0c94a080dab53571
+2023-12-04 16:24:19 - [INFO] - {{START}} Precheck Started, the full log 'precheck.log' will be located in '/home/mc/encryption_caravel_user_project/precheck_results/04_DEC_2023___16_24_16/logs'
+2023-12-04 16:24:19 - [INFO] - {{PRECHECK SEQUENCE}} Precheck will run the following checks: [License, Makefile, Default, Documentation, GPIO-Defines, PDNMulti, XOR, Klayout FEOL, Klayout BEOL, Klayout Offgrid, Klayout Metal Minimum Clear Area Density, OEB, LVS]
+2023-12-04 16:24:19 - [INFO] - {{STEP UPDATE}} Executing Check 1 of 13: License
+2023-12-04 16:24:20 - [INFO] - An approved LICENSE (Apache-2.0) was found in /home/mc/encryption_caravel_user_project.
+2023-12-04 16:24:20 - [INFO] - {{MAIN LICENSE CHECK PASSED}} An approved LICENSE was found in project root.
+2023-12-04 16:24:21 - [INFO] - An approved LICENSE (Apache-2.0) was found in /home/mc/encryption_caravel_user_project.
+2023-12-04 16:24:22 - [INFO] - An approved LICENSE (Apache-2.0) was found in /home/mc/encryption_caravel_user_project.
+2023-12-04 16:24:23 - [INFO] - An approved LICENSE (Apache-2.0) was found in /home/mc/encryption_caravel_user_project.
+2023-12-04 16:24:24 - [INFO] - An approved LICENSE (Apache-2.0) was found in /home/mc/encryption_caravel_user_project.
+2023-12-04 16:24:25 - [INFO] - An approved LICENSE (Apache-2.0) was found in /home/mc/encryption_caravel_user_project.
+2023-12-04 16:24:25 - [INFO] - {{SUBMODULES LICENSE CHECK PASSED}} No prohibited LICENSE file(s) was found in project submodules
+2023-12-04 16:24:29 - [WARNING] - {{SPDX COMPLIANCE CHECK FAILED}} Found 14 non-compliant file(s) with the SPDX Standard.
+2023-12-04 16:24:29 - [INFO] - SPDX COMPLIANCE: NON-COMPLIANT FILE(S) PREVIEW: ['/home/mc/encryption_caravel_user_project/.readthedocs.yaml', '/home/mc/encryption_caravel_user_project/verilog/includes/includes.gl.caravel_user_project', '/home/mc/encryption_caravel_user_project/verilog/includes/includes.gl+sdf.caravel_user_project', '/home/mc/encryption_caravel_user_project/verilog/includes/includes.rtl.caravel_user_project', '/home/mc/encryption_caravel_user_project/verilog/dv/cocotb/design_info.yaml', '/home/mc/encryption_caravel_user_project/verilog/dv/cocotb/cocotb_tests.py', '/home/mc/encryption_caravel_user_project/verilog/dv/cocotb/user_proj_tests/user_proj_tests_gl.yaml', '/home/mc/encryption_caravel_user_project/verilog/dv/cocotb/user_proj_tests/counter_la/counter_la.c', '/home/mc/encryption_caravel_user_project/verilog/dv/cocotb/user_proj_tests/counter_la_reset/counter_la_reset.c', '/home/mc/encryption_caravel_user_project/verilog/dv/cocotb/user_proj_tests/counter_la_clk/counter_la_clk.c', '/home/mc/encryption_caravel_user_project/verilog/dv/cocotb/user_proj_tests/counter_wb/counter_wb.c', '/home/mc/encryption_caravel_user_project/verilog/dv/cocotb/hello_world_uart/hello_world_uart.c', '/home/mc/encryption_caravel_user_project/verilog/dv/cocotb/hello_world/hello_world.c', '/home/mc/encryption_caravel_user_project/verilog/dv/cocotb/gpio_test/gpio_test.c']
+2023-12-04 16:24:29 - [INFO] - For the full SPDX compliance report check: /home/mc/encryption_caravel_user_project/precheck_results/04_DEC_2023___16_24_16/logs/spdx_compliance_report.log
+2023-12-04 16:24:29 - [INFO] - {{STEP UPDATE}} Executing Check 2 of 13: Makefile
+2023-12-04 16:24:29 - [INFO] - {{MAKEFILE CHECK PASSED}} Makefile valid.
+2023-12-04 16:24:29 - [INFO] - {{STEP UPDATE}} Executing Check 3 of 13: Default
+2023-12-04 16:24:29 - [INFO] - {{README DEFAULT CHECK PASSED}} Project 'README.md' was modified and is not identical to the default 'README.md'
+2023-12-04 16:24:29 - [INFO] - {{CONTENT DEFAULT CHECK PASSED}} Project 'gds' was modified and is not identical to the default 'gds'
+2023-12-04 16:24:29 - [INFO] - {{STEP UPDATE}} Executing Check 4 of 13: Documentation
+2023-12-04 16:24:30 - [INFO] - {{DOCUMENTATION CHECK PASSED}} Project documentation is appropriate.
+2023-12-04 16:24:30 - [INFO] - {{STEP UPDATE}} Executing Check 5 of 13: GPIO-Defines
+2023-12-04 16:24:30 - [INFO] - GPIO-DEFINES: Checking verilog/rtl/user_defines.v, parsing files: ['/home/mc/mpw_precheck/checks/gpio_defines_check/verilog_assets/gpio_modes_base.v', '/home/mc/encryption_caravel_user_project/verilog/rtl/user_defines.v', '/home/mc/mpw_precheck/checks/gpio_defines_check/verilog_assets/gpio_modes_observe.v']
+2023-12-04 16:24:32 - [INFO] - GPIO-DEFINES report path: /home/mc/encryption_caravel_user_project/precheck_results/04_DEC_2023___16_24_16/outputs/reports/gpio_defines.report
+2023-12-04 16:24:32 - [INFO] - {{GPIO-DEFINES CHECK PASSED}} The user verilog/rtl/user_defines.v is valid.
+2023-12-04 16:24:32 - [INFO] - {{STEP UPDATE}} Executing Check 6 of 13: PDNMulti
+2023-12-04 16:24:32 - [INFO] - {{PDNMulti CHECK PASSED}} The design, user_project_wrapper, has no PDN PITCH violations.
+2023-12-04 16:24:32 - [INFO] - {{STEP UPDATE}} Executing Check 7 of 13: XOR
+2023-12-04 16:25:53 - [INFO] - {{XOR CHECK UPDATE}} Total XOR differences: 0, for more details view /home/mc/encryption_caravel_user_project/precheck_results/04_DEC_2023___16_24_16/outputs/user_project_wrapper.xor.gds
+2023-12-04 16:25:53 - [INFO] - {{XOR CHECK PASSED}} The GDS file has no XOR violations.
+2023-12-04 16:25:53 - [INFO] - {{STEP UPDATE}} Executing Check 8 of 13: Klayout FEOL
+2023-12-04 16:25:53 - [INFO] - in CUSTOM klayout_gds_drc_check
+2023-12-04 16:25:53 - [INFO] - run: klayout -b -r /home/mc/mpw_precheck/checks/tech-files/gf180mcuD_mr.drc -rd input=/home/mc/encryption_caravel_user_project/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/mc/encryption_caravel_user_project/precheck_results/04_DEC_2023___16_24_16/outputs/reports/klayout_feol_check.xml -rd thr=2 -rd feol=true -rd metal_top=11K -rd mim_option=B -rd metal_level=5LM -rd conn_drc=true -rd run_mode=deep -rd density=false -rd split_deep=false -rd slow_via=false >& /home/mc/encryption_caravel_user_project/precheck_results/04_DEC_2023___16_24_16/logs/klayout_feol_check.log
+2023-12-04 16:39:17 - [INFO] - No DRC Violations found
+2023-12-04 16:39:17 - [INFO] - {{Klayout FEOL CHECK PASSED}} The GDS file, user_project_wrapper.gds, has no DRC violations.
+2023-12-04 16:39:17 - [INFO] - {{STEP UPDATE}} Executing Check 9 of 13: Klayout BEOL
+2023-12-04 16:39:17 - [INFO] - in CUSTOM klayout_gds_drc_check
+2023-12-04 16:39:17 - [INFO] - run: klayout -b -r /home/mc/mpw_precheck/checks/tech-files/gf180mcuD_mr.drc -rd input=/home/mc/encryption_caravel_user_project/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/mc/encryption_caravel_user_project/precheck_results/04_DEC_2023___16_24_16/outputs/reports/klayout_beol_check.xml -rd thr=2 -rd beol=true -rd metal_top=11K -rd mim_option=B -rd metal_level=5LM -rd conn_drc=true -rd run_mode=deep -rd density=false -rd split_deep=false -rd slow_via=false >& /home/mc/encryption_caravel_user_project/precheck_results/04_DEC_2023___16_24_16/logs/klayout_beol_check.log
+2023-12-04 16:44:52 - [INFO] - No DRC Violations found
+2023-12-04 16:44:52 - [INFO] - {{Klayout BEOL CHECK PASSED}} The GDS file, user_project_wrapper.gds, has no DRC violations.
+2023-12-04 16:44:52 - [INFO] - {{STEP UPDATE}} Executing Check 10 of 13: Klayout Offgrid
+2023-12-04 16:44:52 - [INFO] - in CUSTOM klayout_gds_drc_check
+2023-12-04 16:44:52 - [INFO] - run: klayout -b -r /home/mc/mpw_precheck/checks/tech-files/gf180mcuD_mr.drc -rd input=/home/mc/encryption_caravel_user_project/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/mc/encryption_caravel_user_project/precheck_results/04_DEC_2023___16_24_16/outputs/reports/klayout_offgrid_check.xml -rd thr=2 -rd offgrid=true -rd metal_top=11K -rd mim_option=B -rd metal_level=5LM -rd conn_drc=true -rd run_mode=deep -rd density=false -rd split_deep=false -rd slow_via=false >& /home/mc/encryption_caravel_user_project/precheck_results/04_DEC_2023___16_24_16/logs/klayout_offgrid_check.log
+2023-12-04 16:46:24 - [INFO] - No DRC Violations found
+2023-12-04 16:46:24 - [INFO] - {{Klayout Offgrid CHECK PASSED}} The GDS file, user_project_wrapper.gds, has no DRC violations.
+2023-12-04 16:46:24 - [INFO] - {{STEP UPDATE}} Executing Check 11 of 13: Klayout Metal Minimum Clear Area Density
+2023-12-04 16:46:24 - [INFO] - in CUSTOM klayout_gds_drc_check
+2023-12-04 16:46:24 - [INFO] - run: klayout -b -r /home/mc/mpw_precheck/checks/drc_checks/klayout/gf180mcu_density.lydrc -rd input=/home/mc/encryption_caravel_user_project/gds/user_project_wrapper.gds -rd topcell=user_project_wrapper -rd report=/home/mc/encryption_caravel_user_project/precheck_results/04_DEC_2023___16_24_16/outputs/reports/klayout_met_min_ca_density_check.xml -rd thr=2 >& /home/mc/encryption_caravel_user_project/precheck_results/04_DEC_2023___16_24_16/logs/klayout_met_min_ca_density_check.log
+2023-12-04 16:46:26 - [INFO] - No DRC Violations found
+2023-12-04 16:46:26 - [INFO] - {{Klayout Metal Minimum Clear Area Density CHECK PASSED}} The GDS file, user_project_wrapper.gds, has no DRC violations.
+2023-12-04 16:46:26 - [INFO] - {{STEP UPDATE}} Executing Check 12 of 13: OEB
+2023-12-04 16:46:26 - [INFO] - Loading LVS environment from /home/mc/encryption_caravel_user_project/lvs/user_project_wrapper/lvs_config.json
+2023-12-04 16:46:26 - [INFO] - EXTRACT_FLATGLOB : 
+2023-12-04 16:46:26 - [INFO] - EXTRACT_ABSTRACT : *__fill_* *__fakediode_* *__tapvpwrvgnd_*
+2023-12-04 16:46:26 - [INFO] - LVS_FLATTEN : 
+2023-12-04 16:46:26 - [INFO] - LVS_NOFLATTEN : 
+2023-12-04 16:46:26 - [INFO] - LVS_IGNORE : 
+2023-12-04 16:46:26 - [INFO] - LVS_SPICE_FILES : /home/mc/encryption_caravel_user_project/dependencies/pdks/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/spice/gf180mcu_fd_sc_mcu7t5v0.spice
+2023-12-04 16:46:26 - [INFO] - LVS_VERILOG_FILES : /home/mc/encryption_caravel_user_project/verilog/gl/user_proj_example.v /home/mc/encryption_caravel_user_project/verilog/gl/user_project_wrapper.v
+2023-12-04 16:46:26 - [INFO] - LAYOUT_FILE : /home/mc/encryption_caravel_user_project/gds/user_project_wrapper.gds
+2023-12-04 16:46:26 - [INFO] - run: run_oeb_check
+2023-12-04 16:46:26 - [INFO] - OEB output directory: /home/mc/encryption_caravel_user_project/precheck_results/04_DEC_2023___16_24_16
+2023-12-04 16:55:20 - [INFO] - {{OEB CHECK PASSED}} The design, user_project_wrapper, has no OEB violations.
+2023-12-04 16:55:20 - [INFO] - {{STEP UPDATE}} Executing Check 13 of 13: LVS
+2023-12-04 16:55:20 - [INFO] - Loading LVS environment from /home/mc/encryption_caravel_user_project/lvs/user_project_wrapper/lvs_config.json
+2023-12-04 16:55:20 - [INFO] - EXTRACT_FLATGLOB : 
+2023-12-04 16:55:20 - [INFO] - EXTRACT_ABSTRACT : *__fill_* *__fakediode_* *__tapvpwrvgnd_*
+2023-12-04 16:55:20 - [INFO] - LVS_FLATTEN : 
+2023-12-04 16:55:20 - [INFO] - LVS_NOFLATTEN : 
+2023-12-04 16:55:20 - [INFO] - LVS_IGNORE : 
+2023-12-04 16:55:20 - [INFO] - LVS_SPICE_FILES : /home/mc/encryption_caravel_user_project/dependencies/pdks/gf180mcuD/libs.ref/gf180mcu_fd_sc_mcu7t5v0/spice/gf180mcu_fd_sc_mcu7t5v0.spice
+2023-12-04 16:55:20 - [INFO] - LVS_VERILOG_FILES : /home/mc/encryption_caravel_user_project/verilog/gl/user_proj_example.v /home/mc/encryption_caravel_user_project/verilog/gl/user_project_wrapper.v
+2023-12-04 16:55:20 - [INFO] - LAYOUT_FILE : /home/mc/encryption_caravel_user_project/gds/user_project_wrapper.gds
+2023-12-04 16:55:20 - [INFO] - run: run_be_checks
+2023-12-04 16:55:20 - [INFO] - LVS output directory: /home/mc/encryption_caravel_user_project/precheck_results/04_DEC_2023___16_24_16
+2023-12-04 20:06:04 - [ERROR] - ERROR LVS FAILED, stat=1, see /home/mc/encryption_caravel_user_project/precheck_results/04_DEC_2023___16_24_16/logs/LVS_check.log
+2023-12-04 20:06:05 - [WARNING] - {{LVS CHECK FAILED}} The design, user_project_wrapper, has LVS violations.
+2023-12-04 20:06:05 - [INFO] - {{FINISH}} Executing Finished, the full log 'precheck.log' can be found in '/home/mc/encryption_caravel_user_project/precheck_results/04_DEC_2023___16_24_16/logs'
+2023-12-04 20:06:05 - [CRITICAL] - {{FAILURE}} 1 Check(s) Failed: ['LVS'] !!!

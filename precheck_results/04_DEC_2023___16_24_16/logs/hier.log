@@ -1,0 +1,9 @@
+BEGIN: Mon 04 Dec 2023 04:55:21 PM UTC
+Creating /home/mc/encryption_caravel_user_project/precheck_results/04_DEC_2023___16_24_16/tmp/verilog.cells from the following files...
+	/home/mc/encryption_caravel_user_project/verilog/gl/user_proj_example.v
+	/home/mc/encryption_caravel_user_project/verilog/gl/user_project_wrapper.v
+[INFO] Changing from /home/mc/encryption_caravel_user_project/gds/user_project_wrapper.gds
+	to /home/mc/encryption_caravel_user_project/precheck_results/04_DEC_2023___16_24_16/tmp/layout.txt
+Hierarchy check for user_project_wrapper passed.
+END: Mon 04 Dec 2023 04:55:25 PM UTC
+Runtime: 0:00:04 (hh:mm:ss)

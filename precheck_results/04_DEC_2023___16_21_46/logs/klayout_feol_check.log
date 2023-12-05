@@ -1,0 +1,124 @@
+2023-12-04 16:23:35 +0000: Memory Usage (623024K) : Starting running GF180MCU Klayout DRC runset on /home/mc/encryption_caravel_user_project/gds/user_project_wrapper.gds
+2023-12-04 16:23:35 +0000: Memory Usage (623024K) : Ruby Version for klayout: 3.0.2
+2023-12-04 16:23:36 +0000: Memory Usage (696616K) : Loading database to memory is complete.
+2023-12-04 16:23:36 +0000: Memory Usage (696616K) : GF180MCU Klayout DRC runset output at: /home/mc/encryption_caravel_user_project/precheck_results/04_DEC_2023___16_21_46/outputs/reports/klayout_feol_check.xml
+2023-12-04 16:23:36 +0000: Memory Usage (696616K) : Evaluate switches.
+2023-12-04 16:23:36 +0000: Memory Usage (696616K) : table_name selected  main
+2023-12-04 16:23:36 +0000: Memory Usage (696616K) : CONNECTIVITY_RULES enabled: true
+2023-12-04 16:23:36 +0000: Memory Usage (696616K) : Wedge enabled: false
+2023-12-04 16:23:36 +0000: Memory Usage (696616K) : Ball enabled: false
+2023-12-04 16:23:36 +0000: Memory Usage (696616K) : Gold enabled: false
+2023-12-04 16:23:36 +0000: Memory Usage (696616K) : MIM Option selected: B
+2023-12-04 16:23:36 +0000: Memory Usage (696616K) : Offgrid enabled:  false
+2023-12-04 16:23:36 +0000: Memory Usage (696616K) : Number of threads to use 2
+2023-12-04 16:23:36 +0000: Memory Usage (696616K) : Verbose mode: 
+2023-12-04 16:23:36 +0000: Memory Usage (696616K) : deep  mode is enabled for main table
+2023-12-04 16:23:36 +0000: Memory Usage (696616K) : METAL_TOP Selected is 11K
+2023-12-04 16:23:36 +0000: Memory Usage (696616K) : METAL_STACK Selected is 5LM
+2023-12-04 16:23:36 +0000: Memory Usage (696616K) : FEOL enabled: true
+2023-12-04 16:23:36 +0000: Memory Usage (696616K) : BEOL enabled: false
+2023-12-04 16:23:36 +0000: Memory Usage (696616K) : SLOW_VIA enabled: false
+2023-12-04 16:23:36 +0000: Memory Usage (696616K) : Read in polygons from layers.
+2023-12-04 16:23:36 +0000: Memory Usage (701252K) : comp has 1123612 polygons
+2023-12-04 16:23:36 +0000: Memory Usage (701252K) : dnwell has 0 polygons
+2023-12-04 16:23:36 +0000: Memory Usage (701252K) : nwell has 97541 polygons
+2023-12-04 16:23:36 +0000: Memory Usage (701252K) : lvpwell has 97541 polygons
+2023-12-04 16:23:36 +0000: Memory Usage (701252K) : dualgate has 97541 polygons
+2023-12-04 16:23:36 +0000: Memory Usage (701252K) : poly2 has 1059325 polygons
+2023-12-04 16:23:37 +0000: Memory Usage (701252K) : nplus has 97541 polygons
+2023-12-04 16:23:37 +0000: Memory Usage (701252K) : pplus has 129811 polygons
+2023-12-04 16:23:37 +0000: Memory Usage (701252K) : sab has 0 polygons
+2023-12-04 16:23:37 +0000: Memory Usage (701252K) : esd has 0 polygons
+2023-12-04 16:23:37 +0000: Memory Usage (701252K) : resistor has 0 polygons
+2023-12-04 16:23:37 +0000: Memory Usage (701252K) : fhres has 0 polygons
+2023-12-04 16:23:37 +0000: Memory Usage (701252K) : fusetop has 0 polygons
+2023-12-04 16:23:37 +0000: Memory Usage (701252K) : fusewindow_d has 0 polygons
+2023-12-04 16:23:37 +0000: Memory Usage (701252K) : polyfuse has 0 polygons
+2023-12-04 16:23:37 +0000: Memory Usage (701252K) : mvsd has 0 polygons
+2023-12-04 16:23:37 +0000: Memory Usage (701252K) : mvpsd has 0 polygons
+2023-12-04 16:23:37 +0000: Memory Usage (701252K) : nat has 0 polygons
+2023-12-04 16:23:37 +0000: Memory Usage (701252K) : comp_dummy has 0 polygons
+2023-12-04 16:23:37 +0000: Memory Usage (701252K) : poly2_dummy has 0 polygons
+2023-12-04 16:23:37 +0000: Memory Usage (701252K) : schottky_diode has 0 polygons
+2023-12-04 16:23:37 +0000: Memory Usage (701252K) : zener has 0 polygons
+2023-12-04 16:23:37 +0000: Memory Usage (701252K) : res_mk has 0 polygons
+2023-12-04 16:23:37 +0000: Memory Usage (701252K) : opc_drc has 0 polygons
+2023-12-04 16:23:37 +0000: Memory Usage (701252K) : v5_xtor has 97541 polygons
+2023-12-04 16:23:37 +0000: Memory Usage (701252K) : cap_mk has 0 polygons
+2023-12-04 16:23:37 +0000: Memory Usage (701252K) : mos_cap_mk has 0 polygons
+2023-12-04 16:23:37 +0000: Memory Usage (701252K) : ind_mk has 0 polygons
+2023-12-04 16:23:37 +0000: Memory Usage (701252K) : diode_mk has 413 polygons
+2023-12-04 16:23:37 +0000: Memory Usage (701252K) : drc_bjt has 0 polygons
+2023-12-04 16:23:37 +0000: Memory Usage (701252K) : lvs_bjt has 0 polygons
+2023-12-04 16:23:37 +0000: Memory Usage (701252K) : mim_l_mk has 0 polygons
+2023-12-04 16:23:37 +0000: Memory Usage (701252K) : latchup_mk has 0 polygons
+2023-12-04 16:23:37 +0000: Memory Usage (701252K) : guard_ring_mk has 0 polygons
+2023-12-04 16:23:37 +0000: Memory Usage (701252K) : otp_mk has 0 polygons
+2023-12-04 16:23:38 +0000: Memory Usage (701252K) : mtpmark has 0 polygons
+2023-12-04 16:23:38 +0000: Memory Usage (701252K) : neo_ee_mk has 0 polygons
+2023-12-04 16:23:38 +0000: Memory Usage (701252K) : sramcore has 0 polygons
+2023-12-04 16:23:38 +0000: Memory Usage (701252K) : lvs_rf has 0 polygons
+2023-12-04 16:23:38 +0000: Memory Usage (701252K) : lvs_drain has 0 polygons
+2023-12-04 16:23:38 +0000: Memory Usage (701252K) : ind_mk has 0 polygons
+2023-12-04 16:23:38 +0000: Memory Usage (701252K) : hvpolyrs has 0 polygons
+2023-12-04 16:23:38 +0000: Memory Usage (701252K) : lvs_io has 0 polygons
+2023-12-04 16:23:38 +0000: Memory Usage (701252K) : probe_mk has 0 polygons
+2023-12-04 16:23:38 +0000: Memory Usage (701252K) : esd_mk has 0 polygons
+2023-12-04 16:23:38 +0000: Memory Usage (701252K) : lvs_source has 0 polygons
+2023-12-04 16:23:38 +0000: Memory Usage (701252K) : well_diode_mk has 0 polygons
+2023-12-04 16:23:38 +0000: Memory Usage (701252K) : ldmos_xtor has 0 polygons
+2023-12-04 16:23:38 +0000: Memory Usage (701252K) : plfuse has 0 polygons
+2023-12-04 16:23:38 +0000: Memory Usage (701252K) : efuse_mk has 0 polygons
+2023-12-04 16:23:38 +0000: Memory Usage (701252K) : mcell_feol_mk has 0 polygons
+2023-12-04 16:23:38 +0000: Memory Usage (701252K) : ymtp_mk has 0 polygons
+2023-12-04 16:23:38 +0000: Memory Usage (701252K) : dev_wf_mk has 0 polygons
+2023-12-04 16:23:38 +0000: Memory Usage (701252K) : comp_label has 0 polygons
+2023-12-04 16:23:38 +0000: Memory Usage (701252K) : poly2_label has 0 polygons
+2023-12-04 16:23:38 +0000: Memory Usage (701252K) : mdiode has 0 polygons
+2023-12-04 16:23:38 +0000: Memory Usage (701252K) : ndmy has 0 polygons
+2023-12-04 16:23:38 +0000: Memory Usage (701252K) : pmndmy has 0 polygons
+2023-12-04 16:23:38 +0000: Memory Usage (701252K) : contact has 5459449 polygons
+2023-12-04 16:23:38 +0000: Memory Usage (701252K) : metal1_drawn has 2750403 polygons
+2023-12-04 16:23:38 +0000: Memory Usage (701252K) : metal1_dummy has 0 polygons
+2023-12-04 16:23:38 +0000: Memory Usage (701252K) : metal1_label has 0 polygons
+2023-12-04 16:23:38 +0000: Memory Usage (701252K) : metal1_slot has 0 polygons
+2023-12-04 16:23:38 +0000: Memory Usage (701252K) : metal1_blk has 0 polygons
+2023-12-04 16:23:38 +0000: Memory Usage (701252K) : via1 has 26252 polygons
+2023-12-04 16:23:38 +0000: Memory Usage (701252K) : metal2_drawn has 13166 polygons
+2023-12-04 16:23:38 +0000: Memory Usage (701252K) : metal2_dummy has 0 polygons
+2023-12-04 16:23:38 +0000: Memory Usage (701252K) : metal2_label has 630 polygons
+2023-12-04 16:23:38 +0000: Memory Usage (701252K) : metal2_slot has 0 polygons
+2023-12-04 16:23:38 +0000: Memory Usage (701252K) : metal2_blk has 0 polygons
+2023-12-04 16:23:39 +0000: Memory Usage (701764K) : via2 has 26596 polygons
+2023-12-04 16:23:39 +0000: Memory Usage (701764K) : metal3_drawn has 9752 polygons
+2023-12-04 16:23:39 +0000: Memory Usage (701764K) : metal3_dummy has 0 polygons
+2023-12-04 16:23:39 +0000: Memory Usage (701764K) : metal3_label has 135 polygons
+2023-12-04 16:23:39 +0000: Memory Usage (701764K) : metal3_slot has 0 polygons
+2023-12-04 16:23:39 +0000: Memory Usage (701764K) : metal3_blk has 0 polygons
+2023-12-04 16:23:39 +0000: Memory Usage (702532K) : via3 has 24602 polygons
+2023-12-04 16:23:39 +0000: Memory Usage (702532K) : metal4_drawn has 861 polygons
+2023-12-04 16:23:39 +0000: Memory Usage (702532K) : metal4_dummy has 0 polygons
+2023-12-04 16:23:39 +0000: Memory Usage (702532K) : metal4_label has 84 polygons
+2023-12-04 16:23:39 +0000: Memory Usage (702532K) : metal4_slot has 0 polygons
+2023-12-04 16:23:39 +0000: Memory Usage (702532K) : metal4_blk has 0 polygons
+2023-12-04 16:23:39 +0000: Memory Usage (703044K) : via4 has 30184 polygons
+2023-12-04 16:23:39 +0000: Memory Usage (703044K) : metal5_drawn has 78 polygons
+2023-12-04 16:23:39 +0000: Memory Usage (703044K) : metal5_dummy has 0 polygons
+2023-12-04 16:23:39 +0000: Memory Usage (703044K) : metal5_label has 70 polygons
+2023-12-04 16:23:39 +0000: Memory Usage (703044K) : metal5_slot has 0 polygons
+2023-12-04 16:23:39 +0000: Memory Usage (703044K) : metal5_blk has 0 polygons
+2023-12-04 16:23:39 +0000: Memory Usage (703044K) : pad has 0 polygons
+2023-12-04 16:23:39 +0000: Memory Usage (703044K) : ubmpperi has 0 polygons
+2023-12-04 16:23:40 +0000: Memory Usage (703044K) : ubmparray has 0 polygons
+2023-12-04 16:23:40 +0000: Memory Usage (703044K) : ubmeplate has 0 polygons
+2023-12-04 16:23:40 +0000: Memory Usage (703044K) : metal1_res has 0 polygons
+2023-12-04 16:23:40 +0000: Memory Usage (703044K) : metal2_res has 0 polygons
+2023-12-04 16:23:40 +0000: Memory Usage (703044K) : metal3_res has 0 polygons
+2023-12-04 16:23:40 +0000: Memory Usage (703044K) : metal4_res has 0 polygons
+2023-12-04 16:23:40 +0000: Memory Usage (703044K) : metal5_res has 0 polygons
+2023-12-04 16:23:40 +0000: Memory Usage (703044K) : metal6_res has 0 polygons
+2023-12-04 16:23:40 +0000: Memory Usage (704568K) : pr_bndry has 97543 polygons
+2023-12-04 16:23:40 +0000: Memory Usage (704568K) : border has 0 polygons
+2023-12-04 16:23:40 +0000: Memory Usage (704568K) : Total no. of polygons in the design is 11240671
+2023-12-04 16:23:40 +0000: Memory Usage (704568K) : Starting deriving base layers.
+2023-12-04 16:24:00 +0000: Memory Usage (1004604K) : Construct connectivity for the design.

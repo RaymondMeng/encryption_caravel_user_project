@@ -46,6 +46,8 @@ Table of contents
 Overview
 ========
 
+DES Encryption
+
 This repo contains a sample user project that utilizes the
 `caravel <https://github.com/efabless/caravel.git>`__ chip user space.
 The user project is a simple counter that showcases how to make use of

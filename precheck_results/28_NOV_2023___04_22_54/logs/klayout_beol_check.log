@@ -1,0 +1,177 @@
+2023-11-28 04:24:01 +0000: Memory Usage (623016K) : Starting running GF180MCU Klayout DRC runset on /home/mc/encryption_caravel_user_project/gds/user_project_wrapper.gds
+2023-11-28 04:24:01 +0000: Memory Usage (623016K) : Ruby Version for klayout: 3.0.2
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : Loading database to memory is complete.
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : GF180MCU Klayout DRC runset output at: /home/mc/encryption_caravel_user_project/precheck_results/28_NOV_2023___04_22_54/outputs/reports/klayout_beol_check.xml
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : Evaluate switches.
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : table_name selected  main
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : CONNECTIVITY_RULES enabled: true
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : Wedge enabled: false
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : Ball enabled: false
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : Gold enabled: false
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : MIM Option selected: B
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : Offgrid enabled:  false
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : Number of threads to use 2
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : Verbose mode: 
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : deep  mode is enabled for main table
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : METAL_TOP Selected is 11K
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : METAL_STACK Selected is 5LM
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : FEOL enabled: false
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : BEOL enabled: true
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : SLOW_VIA enabled: false
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : Read in polygons from layers.
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : comp has 0 polygons
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : dnwell has 0 polygons
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : nwell has 0 polygons
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : lvpwell has 0 polygons
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : dualgate has 0 polygons
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : poly2 has 0 polygons
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : nplus has 0 polygons
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : pplus has 0 polygons
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : sab has 0 polygons
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : esd has 0 polygons
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : resistor has 0 polygons
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : fhres has 0 polygons
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : fusetop has 0 polygons
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : fusewindow_d has 0 polygons
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : polyfuse has 0 polygons
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : mvsd has 0 polygons
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : mvpsd has 0 polygons
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : nat has 0 polygons
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : comp_dummy has 0 polygons
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : poly2_dummy has 0 polygons
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : schottky_diode has 0 polygons
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : zener has 0 polygons
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : res_mk has 0 polygons
+2023-11-28 04:24:04 +0000: Memory Usage (984424K) : opc_drc has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : v5_xtor has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : cap_mk has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : mos_cap_mk has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : ind_mk has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : diode_mk has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : drc_bjt has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : lvs_bjt has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : mim_l_mk has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : latchup_mk has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : guard_ring_mk has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : otp_mk has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : mtpmark has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : neo_ee_mk has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : sramcore has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : lvs_rf has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : lvs_drain has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : ind_mk has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : hvpolyrs has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : lvs_io has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : probe_mk has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : esd_mk has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : lvs_source has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : well_diode_mk has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : ldmos_xtor has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : plfuse has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : efuse_mk has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : mcell_feol_mk has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : ymtp_mk has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : dev_wf_mk has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : comp_label has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : poly2_label has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : mdiode has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : ndmy has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : pmndmy has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : contact has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : metal1_drawn has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : metal1_dummy has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : metal1_label has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : metal1_slot has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : metal1_blk has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : via1 has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : metal2_drawn has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : metal2_dummy has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : metal2_label has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : metal2_slot has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : metal2_blk has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : via2 has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : metal3_drawn has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : metal3_dummy has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : metal3_label has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : metal3_slot has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : metal3_blk has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : via3 has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : metal4_drawn has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : metal4_dummy has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : metal4_label has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : metal4_slot has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : metal4_blk has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : via4 has 0 polygons
+2023-11-28 04:24:05 +0000: Memory Usage (984424K) : metal5_drawn has 0 polygons
+2023-11-28 04:24:06 +0000: Memory Usage (1010576K) : metal5_dummy has 487167 polygons
+2023-11-28 04:24:06 +0000: Memory Usage (1010576K) : metal5_label has 0 polygons
+2023-11-28 04:24:06 +0000: Memory Usage (1010576K) : metal5_slot has 0 polygons
+2023-11-28 04:24:06 +0000: Memory Usage (1010576K) : metal5_blk has 0 polygons
+2023-11-28 04:24:06 +0000: Memory Usage (1010576K) : pad has 0 polygons
+2023-11-28 04:24:06 +0000: Memory Usage (1010576K) : ubmpperi has 0 polygons
+2023-11-28 04:24:06 +0000: Memory Usage (1010576K) : ubmparray has 0 polygons
+2023-11-28 04:24:06 +0000: Memory Usage (1010576K) : ubmeplate has 0 polygons
+2023-11-28 04:24:06 +0000: Memory Usage (1010576K) : metal1_res has 0 polygons
+2023-11-28 04:24:06 +0000: Memory Usage (1010576K) : metal2_res has 0 polygons
+2023-11-28 04:24:06 +0000: Memory Usage (1010576K) : metal3_res has 0 polygons
+2023-11-28 04:24:06 +0000: Memory Usage (1010576K) : metal4_res has 0 polygons
+2023-11-28 04:24:06 +0000: Memory Usage (1010576K) : metal5_res has 0 polygons
+2023-11-28 04:24:06 +0000: Memory Usage (1010576K) : metal6_res has 0 polygons
+2023-11-28 04:24:06 +0000: Memory Usage (1010576K) : pr_bndry has 0 polygons
+2023-11-28 04:24:06 +0000: Memory Usage (1010576K) : border has 0 polygons
+2023-11-28 04:24:06 +0000: Memory Usage (1010576K) : Total no. of polygons in the design is 487167
+2023-11-28 04:24:06 +0000: Memory Usage (1010576K) : Starting deriving base layers.
+2023-11-28 04:24:06 +0000: Memory Usage (1010576K) : Construct connectivity for the design.
+2023-11-28 04:24:06 +0000: Memory Usage (1010576K) : Connectivity rules enabled, Netlist object will be generated.
+2023-11-28 04:24:15 +0000: Memory Usage (1354504K) : Total area of the design is 10813401.9936 um^2.
+2023-11-28 04:24:15 +0000: Memory Usage (1354504K) : Starting GF180MCU DRC rules.
+2023-11-28 04:24:15 +0000: Memory Usage (1354504K) : Running all BEOL rules
+2023-11-28 04:24:15 +0000: Memory Usage (1354504K) : Executing rule V3.1
+2023-11-28 04:24:15 +0000: Memory Usage (1354504K) : Executing rule V3.2a
+2023-11-28 04:24:15 +0000: Memory Usage (1354504K) : Executing rule V3.2b
+2023-11-28 04:24:15 +0000: Memory Usage (1354504K) : Executing rule V3.3b
+2023-11-28 04:24:15 +0000: Memory Usage (1354504K) : Executing rule V3.3c
+2023-11-28 04:24:16 +0000: Memory Usage (1649432K) : Executing rule V3.3d
+2023-11-28 04:24:17 +0000: Memory Usage (1649432K) : Executing rule V3.4a
+2023-11-28 04:24:17 +0000: Memory Usage (1649432K) : Executing rule V3.4b
+2023-11-28 04:24:17 +0000: Memory Usage (1649432K) : Executing rule V3.4c
+2023-11-28 04:24:18 +0000: Memory Usage (1649432K) : Executing rule M2.1
+2023-11-28 04:24:18 +0000: Memory Usage (1649432K) : Executing rule M2.2a
+2023-11-28 04:24:18 +0000: Memory Usage (1649432K) : Executing rule M2.2b
+2023-11-28 04:24:18 +0000: Memory Usage (1649432K) : Executing rule M2.3
+2023-11-28 04:24:18 +0000: Memory Usage (1649432K) : Executing rule V1.1
+2023-11-28 04:24:18 +0000: Memory Usage (1649432K) : Executing rule V1.2a
+2023-11-28 04:24:18 +0000: Memory Usage (1649432K) : Executing rule V1.2b
+2023-11-28 04:24:18 +0000: Memory Usage (1649432K) : Executing rule V1.3a
+2023-11-28 04:24:18 +0000: Memory Usage (1649432K) : Executing rule V1.3c
+2023-11-28 04:24:19 +0000: Memory Usage (1649432K) : Executing rule V1.3d
+2023-11-28 04:24:20 +0000: Memory Usage (1649432K) : Executing rule V1.4a
+2023-11-28 04:24:20 +0000: Memory Usage (1649432K) : Executing rule V1.4b
+2023-11-28 04:24:20 +0000: Memory Usage (1649432K) : Executing rule V1.4c
+2023-11-28 04:24:21 +0000: Memory Usage (1649432K) : Executing rule V4.1
+2023-11-28 04:24:21 +0000: Memory Usage (1649432K) : Executing rule V4.2a
+2023-11-28 04:24:21 +0000: Memory Usage (1649432K) : Executing rule V4.2b
+2023-11-28 04:24:21 +0000: Memory Usage (1649432K) : Executing rule V4.3b
+2023-11-28 04:24:21 +0000: Memory Usage (1649432K) : Executing rule V4.3c
+2023-11-28 04:24:22 +0000: Memory Usage (1649432K) : Executing rule V4.3d
+2023-11-28 04:24:22 +0000: Memory Usage (1649432K) : Executing rule V4.4a
+2023-11-28 04:24:23 +0000: Memory Usage (1649432K) : Executing rule V4.4b
+2023-11-28 04:24:32 +0000: Memory Usage (1760680K) : Executing rule V4.4c
+2023-11-28 04:24:33 +0000: Memory Usage (1760680K) : Executing rule M1.1
+2023-11-28 04:24:33 +0000: Memory Usage (1760680K) : Executing rule M1.2a
+2023-11-28 04:24:33 +0000: Memory Usage (1760680K) : Executing rule M1.2b
+2023-11-28 04:24:33 +0000: Memory Usage (1760680K) : Executing rule M1.3
+2023-11-28 04:24:33 +0000: Memory Usage (1760680K) : Executing rule DE.2
+2023-11-28 04:24:33 +0000: Memory Usage (1760680K) : Executing rule DE.3
+2023-11-28 04:24:34 +0000: Memory Usage (1760680K) : Executing rule DE.4
+2023-11-28 04:24:34 +0000: Memory Usage (1760680K) : Executing rule V2.1
+2023-11-28 04:24:34 +0000: Memory Usage (1760680K) : Executing rule V2.2a
+2023-11-28 04:24:34 +0000: Memory Usage (1760680K) : Executing rule V2.2b
+2023-11-28 04:24:34 +0000: Memory Usage (1760680K) : Executing rule V2.3b
+2023-11-28 04:24:34 +0000: Memory Usage (1760680K) : Executing rule V2.3c
+2023-11-28 04:24:34 +0000: Memory Usage (1760680K) : Executing rule V2.3d
+2023-11-28 04:24:35 +0000: Memory Usage (1760680K) : Executing rule V2.4a
+2023-11-28 04:24:35 +0000: Memory Usage (1760680K) : Executing rule V2.4b
+2023-11-28 04:24:36 +0000: Memory Usage (1760680K) : Executing rule V2.4c
+2023-11-28 04:24:37 +0000: Memory Usage (1760680K) : MetalTop thickness 9k/11k section
+2023-11-28 04:24:37 +0000: Memory Usage (1760680K) : Executing rule MT.1

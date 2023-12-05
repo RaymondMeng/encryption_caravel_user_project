@@ -1,0 +1,243 @@
+
+TOP SOURCE: user_project_wrapper
+SOURCE FILE(S): /home/mc/encryption_caravel_user_project/dependencies/pdks/gf180mcuD/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_12.spice
+ /home/mc/encryption_caravel_user_project/dependencies/pdks/gf180mcuD/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+ /home/mc/encryption_caravel_user_project/verilog/gl/user_proj_example.v
+ /home/mc/encryption_caravel_user_project/verilog/gl/user_project_wrapper.v
+TOP LAYOUT: user_project_wrapper
+LAYOUT FILE: /home/mc/encryption_caravel_user_project/gds/user_project_wrapper.gds
+EXTRACT_FLATGLOB: 
+EXTRACT_ABSTRACT: *__fill_*
+ *__fakediode_*
+ *__tapvpwrvgnd_*
+LVS_FLATTEN: 
+LVS_NOFLATTEN: 
+LVS_IGNORE: 
+WORK_ROOT   : /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp
+LOG_ROOT    : /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/logs
+SIGNOFF_ROOT: /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/outputs/reports
+ 
+Running hierarchical comparison between verilog and layout...
+Creating /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp/verilog.cells from the following files...
+	/home/mc/encryption_caravel_user_project/verilog/gl/user_proj_example.v
+	/home/mc/encryption_caravel_user_project/verilog/gl/user_project_wrapper.v
+[INFO] Changing from /home/mc/encryption_caravel_user_project/gds/user_project_wrapper.gds
+	to /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp/layout.txt
+Hierarchy check for user_project_wrapper failed. See /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp/hier.csv
+ 
+Running soft connection check on layout...
+WARNING: Tech files do not match:
+/home/mc/encryption_caravel_user_project/dependencies/pdks/gf180mcuD/libs.tech/magic/gf180mcuD.tech:# versions 8.3 or newer.
+/home/mc/encryption_caravel_user_project/dependencies/pdks/gf180mcuD/libs.tech/magic/gf180mcuD.tech: version 1.0.455-1-ge0f692f
+/home/mc/mpw_precheck/checks/be_checks//tech/gf180mcuD/gf180mcuD.tech:# versions 8.3 or newer.
+/home/mc/mpw_precheck/checks/be_checks//tech/gf180mcuD/gf180mcuD.tech: version 1.0.453-0-g559a117
+Results may be incorrect. Contact efabless to update the soft connection rules.
+WORK_ROOT   : /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp
+LOG_ROOT    : /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/logs
+SIGNOFF_ROOT: /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/outputs/reports
+TOP: user_project_wrapper
+LAYOUT: /home/mc/encryption_caravel_user_project/gds/user_project_wrapper.gds
+EXTRACT_FLATGLOB: 
+EXTRACT_ABSTRACT: *__fill_*
+ *__fakediode_*
+ *__tapvpwrvgnd_*
+Extracting layout with well in background process. See /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp/ext.log.
+Extracting layout without well in background process. See /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp/nowell.ext.log.
+Netgen 1.5.254 compiled on Sun Nov 26 08:56:42 UTC 2023
+Warning: netgen command 'format' use fully-qualified name '::netgen::format'
+Warning: netgen command 'global' use fully-qualified name '::netgen::global'
+Reading netlist file /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp/ext/user_project_wrapper.gds.nowell.spice
+Reading netlist file /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+Cannot find cell user_project_wrapper in file /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp/ext/user_project_wrapper.gds.nowell.spice
+tail: cannot open ‘/home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp/soft.report’ for reading: No such file or directory
+scheck status 0
+cp: cannot stat ‘/home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp/soft.report’: No such file or directory
+ 
+Running LVS...
+TOP SOURCE: user_project_wrapper
+SOURCE FILE(S): /home/mc/encryption_caravel_user_project/dependencies/pdks/gf180mcuD/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_12.spice
+ /home/mc/encryption_caravel_user_project/dependencies/pdks/gf180mcuD/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice
+ /home/mc/encryption_caravel_user_project/verilog/gl/user_proj_example.v
+ /home/mc/encryption_caravel_user_project/verilog/gl/user_project_wrapper.v
+TOP LAYOUT: user_project_wrapper
+LAYOUT FILE: /home/mc/encryption_caravel_user_project/gds/user_project_wrapper.gds
+EXTRACT_FLATGLOB: 
+EXTRACT_ABSTRACT: *__fill_*
+ *__fakediode_*
+ *__tapvpwrvgnd_*
+LVS_FLATTEN: 
+LVS_NOFLATTEN: 
+LVS_IGNORE: 
+WORK_ROOT   : /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp
+LOG_ROOT    : /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/logs
+SIGNOFF_ROOT: /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/outputs/reports
+Reusing /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp/ext/user_project_wrapper.gds.spice.
+ls: cannot access /home/mc/encryption_caravel_user_project/dependencies/pdks/gf180mcuD/libs.ref/sky130_fd_sc_hd/spice/sky130_ef_sc_hd__decap_12.spice: No such file or directory
+ls: cannot access /home/mc/encryption_caravel_user_project/dependencies/pdks/gf180mcuD/libs.ref/sky130_fd_sc_hd/spice/sky130_fd_sc_hd.spice: No such file or directory
+ 
+Netgen 1.5.254 compiled on Sun Nov 26 08:56:42 UTC 2023
+Warning: netgen command 'format' use fully-qualified name '::netgen::format'
+Warning: netgen command 'global' use fully-qualified name '::netgen::global'
+Reading layout /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp/ext/user_project_wrapper.gds.spice...
+Warning:  Cell user_proj_example has no pins
+No node 'user_proj_example:mprj/Disconnected(0)' found in current cell '/home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp/ext/user_project_wrapper.gds.spice'
+Reading source /home/mc/encryption_caravel_user_project/verilog/gl/user_proj_example.v...
+Warning:  A case-insensitive file has been read and so the	verilog file must be treated case-insensitive to match.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__antenna.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__fill_2.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__fillcap_8.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__fillcap_4.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__fillcap_16.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__fill_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__fillcap_32.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__fillcap_64.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__endcap.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__filltie.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__clkinv_2.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__inv_2.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__clkinv_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__clkinv_3.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__mux2_2.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__nand2_2.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__nor2_4.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__or2_4.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__nor2_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__and2_2.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__aoi21_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__aoi21_2.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__nor4_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__and3_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__nand4_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__oai21_4.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__and2_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__aoi222_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__nand2_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__xor2_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__nand3_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__xnor2_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__and4_2.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__nand4_4.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__nand2_4.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__aoi222_2.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__oai221_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__aoi22_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__nor4_2.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__oai21_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__nand4_2.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__dffq_4.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__dffq_2.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__dffq_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__clkbuf_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__clkbuf_2.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__clkbuf_16.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__clkbuf_8.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__buf_2.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__clkbuf_12.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__buf_12.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__dlyb_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__buf_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__dlyc_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__buf_8.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__buf_3.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__buf_4.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__clkbuf_3.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__tiel.
+Reading source /home/mc/encryption_caravel_user_project/verilog/gl/user_project_wrapper.v...
+Warning:  A case-insensitive file has been read and so the	verilog file must be treated case-insensitive to match.
+Treating empty subcircuits as black-box cells
+Generating JSON file result
+Reading netlist file 0
+wrong # args: should be "netgen::readnet ?format? file ?filenum?"
+    while executing
+"netgen::readnet $file1"
+    (procedure "lvs" line 58)
+    invoked from within
+"lvs "$layout user_project_wrapper" "$source user_project_wrapper" /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp..."
+    (file "/home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp/lvs.script" line 8)
+    invoked from within
+"source /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp/lvs.script"
+    ("eval" body line 1)
+    invoked from within
+"eval $argv"
+awk: fatal: cannot open file `/home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp/lvs.report' for reading (No such file or directory)
+cp: cannot stat ‘/home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp/lvs.report’: No such file or directory
+grep: /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/outputs/reports/lvs.report: No such file or directory
+
+Error: netgen did not complete.
+DESIGN NAME: user_project_wrapper
+WORK_ROOT   : /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp
+LOG_ROOT    : /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/logs
+SIGNOFF_ROOT: /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/outputs/reports
+ 
+Running CVC...
+Creating /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp/ext/user_project_wrapper.cdl
+CVC: Circuit Validation Check  Version 1.1.5
+CVC: Log output to /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp/cvc.log
+CVC: Error output to /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp/cvc.error.gz
+CVC: Debug output to /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp/cvc.debug.gz
+CVC: Start: Sun Dec  3 06:20:14 2023
+
+Using the following parameters for CVC (Circuit Validation Check) from /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp/cvcrc
+CVC_TOP = 'user_project_wrapper'
+CVC_NETLIST = '/home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp/ext/user_project_wrapper.cdl.gz'
+CVC_MODE = 'user_project_wrapper'
+CVC_MODEL_FILE = '/home/mc/mpw_precheck/checks/be_checks//tech/gf180mcuD/cvc.models'
+CVC_POWER_FILE = '/home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp/cvc.power.user_project_wrapper'
+CVC_FUSE_FILE = ''
+CVC_REPORT_FILE = '/home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp/cvc.log'
+CVC_REPORT_TITLE = 'CVC user_project_wrapper'
+CVC_CIRCUIT_ERROR_LIMIT = '100'
+CVC_SEARCH_LIMIT = '100'
+CVC_LEAK_LIMIT = '0.0002'
+CVC_SOI = 'false'
+CVC_SCRC = 'false'
+CVC_VTH_GATES = 'false'
+CVC_MIN_VTH_GATES = 'false'
+CVC_IGNORE_VTH_FLOATING = 'false'
+CVC_IGNORE_NO_LEAK_FLOATING = 'false'
+CVC_LEAK_OVERVOLTAGE = 'true'
+CVC_LOGIC_DIODES = 'false'
+CVC_ANALOG_GATES = 'true'
+CVC_BACKUP_RESULTS = 'false'
+CVC_MOS_DIODE_ERROR_THRESHOLD = '0'
+CVC_SHORT_ERROR_THRESHOLD = '0'
+CVC_BIAS_ERROR_THRESHOLD = '0'
+CVC_FORWARD_ERROR_THRESHOLD = '0'
+CVC_FLOATING_ERROR_THRESHOLD = '0'
+CVC_GATE_ERROR_THRESHOLD = '0'
+CVC_LEAK?_ERROR_THRESHOLD = '0'
+CVC_EXPECTED_ERROR_THRESHOLD = '0'
+CVC_OVERVOLTAGE_ERROR_THRESHOLD = '0'
+CVC_PARALLEL_CIRCUIT_PORT_LIMIT = '0'
+CVC_CELL_ERROR_LIMIT_FILE = ''
+CVC_CELL_CHECKSUM_FILE = ''
+CVC_LARGE_CIRCUIT_SIZE = '10000000'
+CVC_NET_CHECK_FILE = ''
+CVC_MODEL_CHECK_FILE = ''
+End of parameters
+
+CVC: Reading device model settings...
+CVC: Reading power settings...
+CVC: Parsing netlist /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp/ext/user_project_wrapper.cdl.gz
+
+/home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp/ext/user_project_wrapper.cdl.gz:21.1-5: syntax error, unexpected SUBCIRCUIT, expecting END-OF-FILE or SUBCKT
+Fatal error:Could not parse /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp/ext/user_project_wrapper.cdl.gz
+
+Soft check result:
+Soft check problem: check the following files
+/home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/logs/ext.log
+/home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/logs/nowell.ext.log
+/home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/logs/soft.log
+/home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/outputs/reports/soft.report
+
+LVS result:
+LVS problem: check the following files
+/home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/logs/ext.log
+/home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/logs/lvs.log
+/home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/outputs/reports/lvs.report
+
+CVC result:
+
+Runtime: 0:00:53 (hh:mm:ss)
+
+WARNING: possible errors SOFT 3 LVS 4 CVC 3

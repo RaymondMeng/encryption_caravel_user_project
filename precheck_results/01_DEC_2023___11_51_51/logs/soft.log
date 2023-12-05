@@ -1,0 +1,8 @@
+BEGIN: Fri 01 Dec 2023 11:54:22 AM UTC
+Netgen 1.5.254 compiled on Sun Nov 26 08:56:42 UTC 2023
+Warning: netgen command 'format' use fully-qualified name '::netgen::format'
+Warning: netgen command 'global' use fully-qualified name '::netgen::global'
+Reading netlist file /home/mc/encryption_caravel_user_project/precheck_results/01_DEC_2023___11_51_51/tmp/ext/user_project_wrapper.gds.nowell.spice
+Reading netlist file /home/mc/encryption_caravel_user_project/precheck_results/01_DEC_2023___11_51_51/tmp/nowell.ext/user_project_wrapper.gds.nowell.spice
+END: Fri 01 Dec 2023 11:54:22 AM UTC
+Runtime: 0:00:00 (hh:mm:ss)

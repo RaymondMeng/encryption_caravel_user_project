@@ -1,0 +1,179 @@
+Reading file /home/mc/encryption_caravel_user_project/gds/user_project_wrapper.gds for cell user_project_wrapper
+dbu=0.001
+cell user_project_wrapper dbu-bbox(ll;ur)=(-43630,-38270;2963250,3557950)
+cell user_project_wrapper dbu-bbox(left,bottom,right,top)=(-43630,-38270,2963250,3557950)
+cell user_project_wrapper dbu-size(width,height)=(3006880,3596220)
+cell user_project_wrapper micron-bbox(left,bottom,right,top)=(-43.63,-38.27,2963.25,3557.9500000000003)
+cell user_project_wrapper micron-size(width,height)=(3006.88,3596.2200000000003)
+Done.
+
+Magic 8.3 revision 442 - Compiled on Sun Nov 26 08:56:28 UTC 2023.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Loading "/home/mc/mpw_precheck/checks/xor_check/erase_box_gf180mcu.tcl" from command line.
+"sky130(vendor)" is not one of the CIF input styles Magic knows.
+Error: No style is set
+The CIF input styles are: .
+Don't know how to read GDS-II:
+Nothing in "cifinput" section of tech file.
+Cell user_project_wrapper couldn't be read
+No such file or directory
+Creating new cell
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  10.000 x 2980.000  (-10.000,  0.000), ( 0.000,  2980.000)  29800.000 
+lambda:       10 x 2980    (   -10,  0    ), (     0,  2980 )  29800     
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  10.000 x 2980.000  ( 2980.000,  0.000), ( 2990.000,  2980.000)  29800.000 
+lambda:       10 x 2980    (  2980,  0    ), (  2990,  2980 )  29800     
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  3000.000 x 8.000   (-10.000, -8.000), ( 2990.000,  0.000)  24000.000 
+lambda:     3000 x 8       (   -10, -8    ), (  2990,  0    )  24000     
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  3000.000 x 11.000  (-10.000,  2980.000), ( 2990.000,  2991.000)  33000.000 
+lambda:     3000 x 11      (   -10,  2980 ), (  2990,  2991 )  33000     
+Unrecognized layer: metal5
+Layer names are:
+    mag or magnet
+    f or fence
+    r or rotate
+    $
+    *
+    errors
+    labels
+    subcell
+    connect
+Unrecognized layer: metal4
+Layer names are:
+    mag or magnet
+    f or fence
+    r or rotate
+    $
+    *
+    errors
+    labels
+    subcell
+    connect
+Unrecognized layer: metal5
+Layer names are:
+    mag or magnet
+    f or fence
+    r or rotate
+    $
+    *
+    errors
+    labels
+    subcell
+    connect
+Unrecognized layer: metal4
+Layer names are:
+    mag or magnet
+    f or fence
+    r or rotate
+    $
+    *
+    errors
+    labels
+    subcell
+    connect
+No CIF/GDS output style set!
+I/O error in writing file /home/mc/encryption_caravel_user_project/precheck_results/28_NOV_2023___04_22_54/outputs/user_project_wrapper_erased.gds.
+File may be incompletely written.
+
+Magic 8.3 revision 442 - Compiled on Sun Nov 26 08:56:28 UTC 2023.
+Starting magic under Tcl interpreter
+Using the terminal as the console.
+Using NULL graphics device.
+Processing system .magicrc file
+Loading "/home/mc/mpw_precheck/checks/xor_check/erase_box_gf180mcu.tcl" from command line.
+"sky130(vendor)" is not one of the CIF input styles Magic knows.
+Error: No style is set
+The CIF input styles are: .
+Don't know how to read GDS-II:
+Nothing in "cifinput" section of tech file.
+Cell user_project_wrapper couldn't be read
+No such file or directory
+Creating new cell
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  10.000 x 2980.000  (-10.000,  0.000), ( 0.000,  2980.000)  29800.000 
+lambda:       10 x 2980    (   -10,  0    ), (     0,  2980 )  29800     
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  10.000 x 2980.000  ( 2980.000,  0.000), ( 2990.000,  2980.000)  29800.000 
+lambda:       10 x 2980    (  2980,  0    ), (  2990,  2980 )  29800     
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  3000.000 x 8.000   (-10.000, -8.000), ( 2990.000,  0.000)  24000.000 
+lambda:     3000 x 8       (   -10, -8    ), (  2990,  0    )  24000     
+Root cell box:
+           width x height  (   llx,  lly  ), (   urx,  ury  )  area (units^2)
+
+microns:  3000.000 x 11.000  (-10.000,  2980.000), ( 2990.000,  2991.000)  33000.000 
+lambda:     3000 x 11      (   -10,  2980 ), (  2990,  2991 )  33000     
+Unrecognized layer: metal5
+Layer names are:
+    mag or magnet
+    f or fence
+    r or rotate
+    $
+    *
+    errors
+    labels
+    subcell
+    connect
+Unrecognized layer: metal4
+Layer names are:
+    mag or magnet
+    f or fence
+    r or rotate
+    $
+    *
+    errors
+    labels
+    subcell
+    connect
+Unrecognized layer: metal5
+Layer names are:
+    mag or magnet
+    f or fence
+    r or rotate
+    $
+    *
+    errors
+    labels
+    subcell
+    connect
+Unrecognized layer: metal4
+Layer names are:
+    mag or magnet
+    f or fence
+    r or rotate
+    $
+    *
+    errors
+    labels
+    subcell
+    connect
+No CIF/GDS output style set!
+I/O error in writing file /home/mc/encryption_caravel_user_project/precheck_results/28_NOV_2023___04_22_54/outputs/user_project_wrapper_empty_erased.gds.
+File may be incompletely written.
+Reading /home/mc/encryption_caravel_user_project/precheck_results/28_NOV_2023___04_22_54/outputs/user_project_wrapper_erased.gds ..
+ERROR: In /home/mc/mpw_precheck/checks/xor_check/xor.rb.drc: 'source': Stream has unknown format: /home/mc/encryption_caravel_user_project/precheck_results/28_NOV_2023___04_22_54/outputs/user_project_wrapper_erased.gds in Layout::read
+Total elapsed: 0.010s  Memory: 600.00M
+ERROR: RuntimeError: 'source': Stream has unknown format: /home/mc/encryption_caravel_user_project/precheck_results/28_NOV_2023___04_22_54/outputs/user_project_wrapper_erased.gds in Layout::read in Executable::execute
+  /home/mc/mpw_precheck/checks/xor_check/xor.rb.drc:15:in `execute'
+  :/built-in-macros/drc_interpreters.lym:31:in `instance_eval'
+  :/built-in-macros/drc_interpreters.lym:31:in `execute'

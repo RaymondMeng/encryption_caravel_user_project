@@ -1,0 +1,14 @@
+/home/mc/encryption_caravel_user_project/.readthedocs.yaml
+/home/mc/encryption_caravel_user_project/verilog/includes/includes.gl.caravel_user_project
+/home/mc/encryption_caravel_user_project/verilog/includes/includes.gl+sdf.caravel_user_project
+/home/mc/encryption_caravel_user_project/verilog/includes/includes.rtl.caravel_user_project
+/home/mc/encryption_caravel_user_project/verilog/dv/cocotb/design_info.yaml
+/home/mc/encryption_caravel_user_project/verilog/dv/cocotb/cocotb_tests.py
+/home/mc/encryption_caravel_user_project/verilog/dv/cocotb/user_proj_tests/user_proj_tests_gl.yaml
+/home/mc/encryption_caravel_user_project/verilog/dv/cocotb/user_proj_tests/counter_la/counter_la.c
+/home/mc/encryption_caravel_user_project/verilog/dv/cocotb/user_proj_tests/counter_la_reset/counter_la_reset.c
+/home/mc/encryption_caravel_user_project/verilog/dv/cocotb/user_proj_tests/counter_la_clk/counter_la_clk.c
+/home/mc/encryption_caravel_user_project/verilog/dv/cocotb/user_proj_tests/counter_wb/counter_wb.c
+/home/mc/encryption_caravel_user_project/verilog/dv/cocotb/hello_world_uart/hello_world_uart.c
+/home/mc/encryption_caravel_user_project/verilog/dv/cocotb/hello_world/hello_world.c
+/home/mc/encryption_caravel_user_project/verilog/dv/cocotb/gpio_test/gpio_test.c

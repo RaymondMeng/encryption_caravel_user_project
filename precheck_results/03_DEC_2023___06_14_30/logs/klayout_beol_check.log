@@ -1,0 +1,230 @@
+2023-12-03 06:15:56 +0000: Memory Usage (623020K) : Starting running GF180MCU Klayout DRC runset on /home/mc/encryption_caravel_user_project/gds/user_project_wrapper.gds
+2023-12-03 06:15:56 +0000: Memory Usage (623020K) : Ruby Version for klayout: 3.0.2
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : Loading database to memory is complete.
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : GF180MCU Klayout DRC runset output at: /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/outputs/reports/klayout_beol_check.xml
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : Evaluate switches.
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : table_name selected  main
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : CONNECTIVITY_RULES enabled: true
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : Wedge enabled: false
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : Ball enabled: false
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : Gold enabled: false
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : MIM Option selected: B
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : Offgrid enabled:  false
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : Number of threads to use 2
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : Verbose mode: 
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : deep  mode is enabled for main table
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : METAL_TOP Selected is 11K
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : METAL_STACK Selected is 5LM
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : FEOL enabled: false
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : BEOL enabled: true
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : SLOW_VIA enabled: false
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : Read in polygons from layers.
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : comp has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : dnwell has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : nwell has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : lvpwell has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : dualgate has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : poly2 has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : nplus has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : pplus has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : sab has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : esd has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : resistor has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : fhres has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : fusetop has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : fusewindow_d has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : polyfuse has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : mvsd has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : mvpsd has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : nat has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : comp_dummy has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : poly2_dummy has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : schottky_diode has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : zener has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : res_mk has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : opc_drc has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : v5_xtor has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : cap_mk has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : mos_cap_mk has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : ind_mk has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : diode_mk has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : drc_bjt has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : lvs_bjt has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : mim_l_mk has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : latchup_mk has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : guard_ring_mk has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : otp_mk has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : mtpmark has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : neo_ee_mk has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : sramcore has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : lvs_rf has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : lvs_drain has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : ind_mk has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : hvpolyrs has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : lvs_io has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : probe_mk has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : esd_mk has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : lvs_source has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : well_diode_mk has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : ldmos_xtor has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : plfuse has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : efuse_mk has 0 polygons
+2023-12-03 06:15:59 +0000: Memory Usage (984432K) : mcell_feol_mk has 0 polygons
+2023-12-03 06:16:00 +0000: Memory Usage (984432K) : ymtp_mk has 0 polygons
+2023-12-03 06:16:00 +0000: Memory Usage (984432K) : dev_wf_mk has 0 polygons
+2023-12-03 06:16:00 +0000: Memory Usage (984432K) : comp_label has 0 polygons
+2023-12-03 06:16:00 +0000: Memory Usage (984432K) : poly2_label has 0 polygons
+2023-12-03 06:16:00 +0000: Memory Usage (984432K) : mdiode has 0 polygons
+2023-12-03 06:16:00 +0000: Memory Usage (984432K) : ndmy has 0 polygons
+2023-12-03 06:16:00 +0000: Memory Usage (984432K) : pmndmy has 0 polygons
+2023-12-03 06:16:00 +0000: Memory Usage (984432K) : contact has 0 polygons
+2023-12-03 06:16:00 +0000: Memory Usage (984432K) : metal1_drawn has 0 polygons
+2023-12-03 06:16:00 +0000: Memory Usage (984432K) : metal1_dummy has 0 polygons
+2023-12-03 06:16:00 +0000: Memory Usage (984432K) : metal1_label has 0 polygons
+2023-12-03 06:16:00 +0000: Memory Usage (984432K) : metal1_slot has 0 polygons
+2023-12-03 06:16:00 +0000: Memory Usage (984432K) : metal1_blk has 0 polygons
+2023-12-03 06:16:00 +0000: Memory Usage (984432K) : via1 has 0 polygons
+2023-12-03 06:16:00 +0000: Memory Usage (984432K) : metal2_drawn has 0 polygons
+2023-12-03 06:16:00 +0000: Memory Usage (984432K) : metal2_dummy has 0 polygons
+2023-12-03 06:16:00 +0000: Memory Usage (984432K) : metal2_label has 0 polygons
+2023-12-03 06:16:00 +0000: Memory Usage (984432K) : metal2_slot has 0 polygons
+2023-12-03 06:16:00 +0000: Memory Usage (984432K) : metal2_blk has 0 polygons
+2023-12-03 06:16:00 +0000: Memory Usage (984432K) : via2 has 0 polygons
+2023-12-03 06:16:00 +0000: Memory Usage (984432K) : metal3_drawn has 0 polygons
+2023-12-03 06:16:00 +0000: Memory Usage (984432K) : metal3_dummy has 0 polygons
+2023-12-03 06:16:00 +0000: Memory Usage (984432K) : metal3_label has 0 polygons
+2023-12-03 06:16:00 +0000: Memory Usage (984432K) : metal3_slot has 0 polygons
+2023-12-03 06:16:00 +0000: Memory Usage (984432K) : metal3_blk has 0 polygons
+2023-12-03 06:16:00 +0000: Memory Usage (984432K) : via3 has 0 polygons
+2023-12-03 06:16:00 +0000: Memory Usage (984432K) : metal4_drawn has 0 polygons
+2023-12-03 06:16:00 +0000: Memory Usage (984432K) : metal4_dummy has 0 polygons
+2023-12-03 06:16:00 +0000: Memory Usage (984432K) : metal4_label has 0 polygons
+2023-12-03 06:16:00 +0000: Memory Usage (984432K) : metal4_slot has 0 polygons
+2023-12-03 06:16:00 +0000: Memory Usage (984432K) : metal4_blk has 0 polygons
+2023-12-03 06:16:00 +0000: Memory Usage (984432K) : via4 has 0 polygons
+2023-12-03 06:16:00 +0000: Memory Usage (984432K) : metal5_drawn has 0 polygons
+2023-12-03 06:16:00 +0000: Memory Usage (1010584K) : metal5_dummy has 487167 polygons
+2023-12-03 06:16:01 +0000: Memory Usage (1010584K) : metal5_label has 0 polygons
+2023-12-03 06:16:01 +0000: Memory Usage (1010584K) : metal5_slot has 0 polygons
+2023-12-03 06:16:01 +0000: Memory Usage (1010584K) : metal5_blk has 0 polygons
+2023-12-03 06:16:01 +0000: Memory Usage (1010584K) : pad has 0 polygons
+2023-12-03 06:16:01 +0000: Memory Usage (1010584K) : ubmpperi has 0 polygons
+2023-12-03 06:16:01 +0000: Memory Usage (1010584K) : ubmparray has 0 polygons
+2023-12-03 06:16:01 +0000: Memory Usage (1010584K) : ubmeplate has 0 polygons
+2023-12-03 06:16:01 +0000: Memory Usage (1010584K) : metal1_res has 0 polygons
+2023-12-03 06:16:01 +0000: Memory Usage (1010584K) : metal2_res has 0 polygons
+2023-12-03 06:16:01 +0000: Memory Usage (1010584K) : metal3_res has 0 polygons
+2023-12-03 06:16:01 +0000: Memory Usage (1010584K) : metal4_res has 0 polygons
+2023-12-03 06:16:01 +0000: Memory Usage (1010584K) : metal5_res has 0 polygons
+2023-12-03 06:16:01 +0000: Memory Usage (1010584K) : metal6_res has 0 polygons
+2023-12-03 06:16:01 +0000: Memory Usage (1010584K) : pr_bndry has 0 polygons
+2023-12-03 06:16:01 +0000: Memory Usage (1010584K) : border has 0 polygons
+2023-12-03 06:16:01 +0000: Memory Usage (1010584K) : Total no. of polygons in the design is 487167
+2023-12-03 06:16:01 +0000: Memory Usage (1010584K) : Starting deriving base layers.
+2023-12-03 06:16:01 +0000: Memory Usage (1010584K) : Construct connectivity for the design.
+2023-12-03 06:16:01 +0000: Memory Usage (1010584K) : Connectivity rules enabled, Netlist object will be generated.
+2023-12-03 06:16:10 +0000: Memory Usage (1354512K) : Total area of the design is 10813401.9936 um^2.
+2023-12-03 06:16:10 +0000: Memory Usage (1354512K) : Starting GF180MCU DRC rules.
+2023-12-03 06:16:10 +0000: Memory Usage (1354512K) : Running all BEOL rules
+2023-12-03 06:16:10 +0000: Memory Usage (1354512K) : Executing rule V3.1
+2023-12-03 06:16:10 +0000: Memory Usage (1354512K) : Executing rule V3.2a
+2023-12-03 06:16:10 +0000: Memory Usage (1354512K) : Executing rule V3.2b
+2023-12-03 06:16:10 +0000: Memory Usage (1354512K) : Executing rule V3.3b
+2023-12-03 06:16:10 +0000: Memory Usage (1354512K) : Executing rule V3.3c
+2023-12-03 06:16:11 +0000: Memory Usage (1649440K) : Executing rule V3.3d
+2023-12-03 06:16:11 +0000: Memory Usage (1649440K) : Executing rule V3.4a
+2023-12-03 06:16:11 +0000: Memory Usage (1649440K) : Executing rule V3.4b
+2023-12-03 06:16:12 +0000: Memory Usage (1649440K) : Executing rule V3.4c
+2023-12-03 06:16:12 +0000: Memory Usage (1649440K) : Executing rule M2.1
+2023-12-03 06:16:12 +0000: Memory Usage (1649440K) : Executing rule M2.2a
+2023-12-03 06:16:12 +0000: Memory Usage (1649440K) : Executing rule M2.2b
+2023-12-03 06:16:13 +0000: Memory Usage (1649440K) : Executing rule M2.3
+2023-12-03 06:16:13 +0000: Memory Usage (1649440K) : Executing rule V1.1
+2023-12-03 06:16:13 +0000: Memory Usage (1649440K) : Executing rule V1.2a
+2023-12-03 06:16:13 +0000: Memory Usage (1649440K) : Executing rule V1.2b
+2023-12-03 06:16:13 +0000: Memory Usage (1649440K) : Executing rule V1.3a
+2023-12-03 06:16:13 +0000: Memory Usage (1649440K) : Executing rule V1.3c
+2023-12-03 06:16:14 +0000: Memory Usage (1649440K) : Executing rule V1.3d
+2023-12-03 06:16:14 +0000: Memory Usage (1649440K) : Executing rule V1.4a
+2023-12-03 06:16:14 +0000: Memory Usage (1649440K) : Executing rule V1.4b
+2023-12-03 06:16:15 +0000: Memory Usage (1649440K) : Executing rule V1.4c
+2023-12-03 06:16:15 +0000: Memory Usage (1649440K) : Executing rule V4.1
+2023-12-03 06:16:16 +0000: Memory Usage (1649440K) : Executing rule V4.2a
+2023-12-03 06:16:16 +0000: Memory Usage (1649440K) : Executing rule V4.2b
+2023-12-03 06:16:16 +0000: Memory Usage (1649440K) : Executing rule V4.3b
+2023-12-03 06:16:16 +0000: Memory Usage (1649440K) : Executing rule V4.3c
+2023-12-03 06:16:16 +0000: Memory Usage (1649952K) : Executing rule V4.3d
+2023-12-03 06:16:17 +0000: Memory Usage (1649952K) : Executing rule V4.4a
+2023-12-03 06:16:17 +0000: Memory Usage (1649952K) : Executing rule V4.4b
+2023-12-03 06:16:27 +0000: Memory Usage (1760820K) : Executing rule V4.4c
+2023-12-03 06:16:28 +0000: Memory Usage (1760820K) : Executing rule M1.1
+2023-12-03 06:16:28 +0000: Memory Usage (1760820K) : Executing rule M1.2a
+2023-12-03 06:16:28 +0000: Memory Usage (1760820K) : Executing rule M1.2b
+2023-12-03 06:16:28 +0000: Memory Usage (1760820K) : Executing rule M1.3
+2023-12-03 06:16:28 +0000: Memory Usage (1760820K) : Executing rule DE.2
+2023-12-03 06:16:29 +0000: Memory Usage (1760820K) : Executing rule DE.3
+2023-12-03 06:16:29 +0000: Memory Usage (1760820K) : Executing rule DE.4
+2023-12-03 06:16:29 +0000: Memory Usage (1760820K) : Executing rule V2.1
+2023-12-03 06:16:29 +0000: Memory Usage (1760820K) : Executing rule V2.2a
+2023-12-03 06:16:29 +0000: Memory Usage (1760820K) : Executing rule V2.2b
+2023-12-03 06:16:29 +0000: Memory Usage (1760820K) : Executing rule V2.3b
+2023-12-03 06:16:29 +0000: Memory Usage (1760820K) : Executing rule V2.3c
+2023-12-03 06:16:30 +0000: Memory Usage (1760820K) : Executing rule V2.3d
+2023-12-03 06:16:30 +0000: Memory Usage (1760820K) : Executing rule V2.4a
+2023-12-03 06:16:30 +0000: Memory Usage (1760820K) : Executing rule V2.4b
+2023-12-03 06:16:31 +0000: Memory Usage (1760820K) : Executing rule V2.4c
+2023-12-03 06:16:32 +0000: Memory Usage (1760820K) : MetalTop thickness 9k/11k section
+2023-12-03 06:16:32 +0000: Memory Usage (1760820K) : Executing rule MT.1
+2023-12-03 06:16:32 +0000: Memory Usage (1760820K) : Executing rule MT.2a
+2023-12-03 06:16:45 +0000: Memory Usage (1760820K) : Executing rule MT.2b
+2023-12-03 06:16:49 +0000: Memory Usage (1760820K) : Executing rule MT.4
+2023-12-03 06:16:49 +0000: Memory Usage (1760820K) : Executing rule M4.1
+2023-12-03 06:16:49 +0000: Memory Usage (1760820K) : Executing rule M4.2a
+2023-12-03 06:16:49 +0000: Memory Usage (1760820K) : Executing rule M4.2b
+2023-12-03 06:16:49 +0000: Memory Usage (1760820K) : Executing rule M4.3
+2023-12-03 06:16:49 +0000: Memory Usage (1760820K) : Executing rule M3.1
+2023-12-03 06:16:49 +0000: Memory Usage (1760820K) : Executing rule M3.2a
+2023-12-03 06:16:49 +0000: Memory Usage (1760820K) : Executing rule M3.2b
+2023-12-03 06:16:49 +0000: Memory Usage (1760820K) : Executing rule M3.3
+2023-12-03 06:16:49 +0000: Memory Usage (1760820K) : Starting EFUSE derivations
+2023-12-03 06:16:49 +0000: Memory Usage (1760820K) : Executing rule EF.01
+2023-12-03 06:16:49 +0000: Memory Usage (1760820K) : Executing rule EF.02
+2023-12-03 06:16:50 +0000: Memory Usage (1760820K) : Executing rule EF.03
+2023-12-03 06:16:50 +0000: Memory Usage (1760820K) : Executing rule EF.04a
+2023-12-03 06:16:50 +0000: Memory Usage (1760820K) : Executing rule EF.04b
+2023-12-03 06:16:50 +0000: Memory Usage (1760820K) : Executing rule EF.04c
+2023-12-03 06:16:50 +0000: Memory Usage (1760820K) : Executing rule EF.04d
+2023-12-03 06:16:50 +0000: Memory Usage (1760820K) : Executing rule EF.05
+2023-12-03 06:16:50 +0000: Memory Usage (1760820K) : Executing rule EF.06
+2023-12-03 06:16:51 +0000: Memory Usage (1760820K) : Executing rule EF.07
+2023-12-03 06:16:51 +0000: Memory Usage (1760820K) : Executing rule EF.08
+2023-12-03 06:16:51 +0000: Memory Usage (1760820K) : Executing rule EF.09
+2023-12-03 06:16:51 +0000: Memory Usage (1760820K) : Executing rule EF.10
+2023-12-03 06:16:51 +0000: Memory Usage (1760820K) : Executing rule EF.11
+2023-12-03 06:16:51 +0000: Memory Usage (1760820K) : Executing rule EF.12
+2023-12-03 06:16:51 +0000: Memory Usage (1760820K) : Executing rule EF.13
+2023-12-03 06:16:51 +0000: Memory Usage (1760820K) : Executing rule EF.14
+2023-12-03 06:16:51 +0000: Memory Usage (1760820K) : Executing rule EF.15
+2023-12-03 06:16:51 +0000: Memory Usage (1760820K) : Executing rule EF.16a
+2023-12-03 06:16:51 +0000: Memory Usage (1760820K) : Executing rule EF.16b
+2023-12-03 06:16:51 +0000: Memory Usage (1760820K) : Executing rule EF.17
+2023-12-03 06:16:51 +0000: Memory Usage (1760820K) : Executing rule EF.18
+2023-12-03 06:16:51 +0000: Memory Usage (1760820K) : Executing rule EF.19
+2023-12-03 06:16:51 +0000: Memory Usage (1760820K) : Executing rule EF.20
+2023-12-03 06:16:51 +0000: Memory Usage (1760820K) : Executing rule EF.21
+2023-12-03 06:16:52 +0000: Memory Usage (1760820K) : Executing rule EF.22a
+2023-12-03 06:16:52 +0000: Memory Usage (1760820K) : Executing rule EF.22b
+2023-12-03 06:16:52 +0000: Memory Usage (1760820K) : MIM Capacitor Option B section
+2023-12-03 06:16:52 +0000: Memory Usage (1760820K) : Executing rule MIMTM.1
+2023-12-03 06:16:52 +0000: Memory Usage (1760820K) : Executing rule MIMTM.2
+2023-12-03 06:16:52 +0000: Memory Usage (1760820K) : Executing rule MIMTM.3
+2023-12-03 06:16:52 +0000: Memory Usage (1760820K) : Executing rule MIMTM.4
+2023-12-03 06:16:52 +0000: Memory Usage (1760820K) : Executing rule MIMTM.5
+2023-12-03 06:16:52 +0000: Memory Usage (1760820K) : Executing rule MIMTM.6
+2023-12-03 06:16:52 +0000: Memory Usage (1760820K) : Executing rule MIMTM.7
+2023-12-03 06:16:52 +0000: Memory Usage (1760820K) : Executing rule MIMTM.8a
+2023-12-03 06:16:52 +0000: Memory Usage (1760820K) : Executing rule MIMTM.8b
+2023-12-03 06:16:52 +0000: Memory Usage (1760820K) : Executing rule MIMTM.9
+2023-12-03 06:16:52 +0000: Memory Usage (1760820K) : Executing rule MIMTM.10
+2023-12-03 06:16:52 +0000: Memory Usage (1760820K) : Executing rule MIMTM.11
+2023-12-03 06:16:52 +0000: Memory Usage (1760820K) :  DRC Total Run time 56.643818282 seconds

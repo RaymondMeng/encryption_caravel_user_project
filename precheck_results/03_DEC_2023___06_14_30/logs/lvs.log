@@ -1,0 +1,87 @@
+BEGIN: Sun 03 Dec 2023 06:20:12 AM UTC
+Netgen 1.5.254 compiled on Sun Nov 26 08:56:42 UTC 2023
+Warning: netgen command 'format' use fully-qualified name '::netgen::format'
+Warning: netgen command 'global' use fully-qualified name '::netgen::global'
+Reading layout /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp/ext/user_project_wrapper.gds.spice...
+Warning:  Cell user_proj_example has no pins
+No node 'user_proj_example:mprj/Disconnected(0)' found in current cell '/home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp/ext/user_project_wrapper.gds.spice'
+Reading source /home/mc/encryption_caravel_user_project/verilog/gl/user_proj_example.v...
+Warning:  A case-insensitive file has been read and so the	verilog file must be treated case-insensitive to match.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__antenna.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__fill_2.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__fillcap_8.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__fillcap_4.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__fillcap_16.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__fill_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__fillcap_32.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__fillcap_64.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__endcap.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__filltie.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__clkinv_2.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__inv_2.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__clkinv_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__clkinv_3.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__mux2_2.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__nand2_2.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__nor2_4.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__or2_4.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__nor2_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__and2_2.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__aoi21_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__aoi21_2.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__nor4_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__and3_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__nand4_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__oai21_4.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__and2_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__aoi222_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__nand2_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__xor2_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__nand3_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__xnor2_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__and4_2.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__nand4_4.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__nand2_4.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__aoi222_2.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__oai221_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__aoi22_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__nor4_2.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__oai21_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__nand4_2.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__dffq_4.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__dffq_2.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__dffq_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__clkbuf_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__clkbuf_2.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__clkbuf_16.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__clkbuf_8.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__buf_2.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__clkbuf_12.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__buf_12.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__dlyb_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__buf_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__dlyc_1.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__buf_8.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__buf_3.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__buf_4.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__clkbuf_3.
+Creating placeholder cell definition for module gf180mcu_fd_sc_mcu7t5v0__tiel.
+Reading source /home/mc/encryption_caravel_user_project/verilog/gl/user_project_wrapper.v...
+Warning:  A case-insensitive file has been read and so the	verilog file must be treated case-insensitive to match.
+Treating empty subcircuits as black-box cells
+Generating JSON file result
+Reading netlist file 0
+wrong # args: should be "netgen::readnet ?format? file ?filenum?"
+    while executing
+"netgen::readnet $file1"
+    (procedure "lvs" line 58)
+    invoked from within
+"lvs "$layout user_project_wrapper" "$source user_project_wrapper" /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp..."
+    (file "/home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp/lvs.script" line 8)
+    invoked from within
+"source /home/mc/encryption_caravel_user_project/precheck_results/03_DEC_2023___06_14_30/tmp/lvs.script"
+    ("eval" body line 1)
+    invoked from within
+"eval $argv"
+END: Sun 03 Dec 2023 06:20:14 AM UTC
+Runtime: 0:00:02 (hh:mm:ss)
