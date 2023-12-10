@@ -773,8 +773,6 @@ MACRO user_proj_example
   PIN la_data_in[46]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 2241.120 0.000 2241.680 4.000 ;
@@ -783,8 +781,6 @@ MACRO user_proj_example
   PIN la_data_in[47]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 2268.000 0.000 2268.560 4.000 ;
@@ -793,8 +789,6 @@ MACRO user_proj_example
   PIN la_data_in[48]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 2294.880 0.000 2295.440 4.000 ;
@@ -803,8 +797,6 @@ MACRO user_proj_example
   PIN la_data_in[49]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 2321.760 0.000 2322.320 4.000 ;
@@ -821,8 +813,6 @@ MACRO user_proj_example
   PIN la_data_in[50]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 2348.640 0.000 2349.200 4.000 ;
@@ -831,8 +821,6 @@ MACRO user_proj_example
   PIN la_data_in[51]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 2375.520 0.000 2376.080 4.000 ;
@@ -841,8 +829,6 @@ MACRO user_proj_example
   PIN la_data_in[52]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 2402.400 0.000 2402.960 4.000 ;
@@ -851,8 +837,6 @@ MACRO user_proj_example
   PIN la_data_in[53]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 2429.280 0.000 2429.840 4.000 ;
@@ -861,8 +845,6 @@ MACRO user_proj_example
   PIN la_data_in[54]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 2456.160 0.000 2456.720 4.000 ;
@@ -871,8 +853,6 @@ MACRO user_proj_example
   PIN la_data_in[55]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 2483.040 0.000 2483.600 4.000 ;
@@ -881,8 +861,6 @@ MACRO user_proj_example
   PIN la_data_in[56]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 2509.920 0.000 2510.480 4.000 ;
@@ -891,8 +869,6 @@ MACRO user_proj_example
   PIN la_data_in[57]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 2536.800 0.000 2537.360 4.000 ;
@@ -901,8 +877,6 @@ MACRO user_proj_example
   PIN la_data_in[58]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 2563.680 0.000 2564.240 4.000 ;
@@ -911,8 +885,6 @@ MACRO user_proj_example
   PIN la_data_in[59]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 2590.560 0.000 2591.120 4.000 ;
@@ -929,8 +901,6 @@ MACRO user_proj_example
   PIN la_data_in[60]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 2617.440 0.000 2618.000 4.000 ;
@@ -939,8 +909,6 @@ MACRO user_proj_example
   PIN la_data_in[61]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 2644.320 0.000 2644.880 4.000 ;
@@ -949,8 +917,6 @@ MACRO user_proj_example
   PIN la_data_in[62]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 2.204000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 2671.200 0.000 2671.760 4.000 ;
@@ -959,8 +925,6 @@ MACRO user_proj_example
   PIN la_data_in[63]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 2698.080 0.000 2698.640 4.000 ;
@@ -1897,8 +1861,6 @@ MACRO user_proj_example
   PIN la_oenb[46]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 2259.040 0.000 2259.600 4.000 ;
@@ -1907,8 +1869,6 @@ MACRO user_proj_example
   PIN la_oenb[47]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 2285.920 0.000 2286.480 4.000 ;
@@ -1917,8 +1877,6 @@ MACRO user_proj_example
   PIN la_oenb[48]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 2312.800 0.000 2313.360 4.000 ;
@@ -1927,8 +1885,6 @@ MACRO user_proj_example
   PIN la_oenb[49]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 2339.680 0.000 2340.240 4.000 ;
@@ -1945,8 +1901,6 @@ MACRO user_proj_example
   PIN la_oenb[50]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 2366.560 0.000 2367.120 4.000 ;
@@ -1955,8 +1909,6 @@ MACRO user_proj_example
   PIN la_oenb[51]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 2393.440 0.000 2394.000 4.000 ;
@@ -1965,8 +1917,6 @@ MACRO user_proj_example
   PIN la_oenb[52]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 2420.320 0.000 2420.880 4.000 ;
@@ -1975,8 +1925,6 @@ MACRO user_proj_example
   PIN la_oenb[53]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 2447.200 0.000 2447.760 4.000 ;
@@ -1985,8 +1933,6 @@ MACRO user_proj_example
   PIN la_oenb[54]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 2474.080 0.000 2474.640 4.000 ;
@@ -1995,8 +1941,6 @@ MACRO user_proj_example
   PIN la_oenb[55]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 2500.960 0.000 2501.520 4.000 ;
@@ -2005,8 +1949,6 @@ MACRO user_proj_example
   PIN la_oenb[56]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 2527.840 0.000 2528.400 4.000 ;
@@ -2015,8 +1957,6 @@ MACRO user_proj_example
   PIN la_oenb[57]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 2554.720 0.000 2555.280 4.000 ;
@@ -2025,8 +1965,6 @@ MACRO user_proj_example
   PIN la_oenb[58]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 2581.600 0.000 2582.160 4.000 ;
@@ -2035,8 +1973,6 @@ MACRO user_proj_example
   PIN la_oenb[59]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 2608.480 0.000 2609.040 4.000 ;
@@ -2053,8 +1989,6 @@ MACRO user_proj_example
   PIN la_oenb[60]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 2635.360 0.000 2635.920 4.000 ;
@@ -2063,8 +1997,6 @@ MACRO user_proj_example
   PIN la_oenb[61]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 2662.240 0.000 2662.800 4.000 ;
@@ -2073,8 +2005,6 @@ MACRO user_proj_example
   PIN la_oenb[62]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 2.204000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 2689.120 0.000 2689.680 4.000 ;
@@ -2083,8 +2013,6 @@ MACRO user_proj_example
   PIN la_oenb[63]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.396000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 2716.000 0.000 2716.560 4.000 ;
@@ -2281,7 +2209,7 @@ MACRO user_proj_example
   PIN wb_clk_i
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 1.102000 ;
+    ANTENNAGATEAREA 4.738000 ;
     ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
@@ -2291,7 +2219,7 @@ MACRO user_proj_example
   PIN wb_rst_i
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 2.204000 ;
+    ANTENNAGATEAREA 0.726000 ;
     ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
@@ -2310,6 +2238,8 @@ MACRO user_proj_example
   PIN wbs_adr_i[0]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.741000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 108.640 0.000 109.200 4.000 ;
@@ -2318,6 +2248,8 @@ MACRO user_proj_example
   PIN wbs_adr_i[10]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.741000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 413.280 0.000 413.840 4.000 ;
@@ -2326,6 +2258,8 @@ MACRO user_proj_example
   PIN wbs_adr_i[11]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.741000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 440.160 0.000 440.720 4.000 ;
@@ -2334,6 +2268,8 @@ MACRO user_proj_example
   PIN wbs_adr_i[12]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.741000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 467.040 0.000 467.600 4.000 ;
@@ -2342,6 +2278,8 @@ MACRO user_proj_example
   PIN wbs_adr_i[13]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.741000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 493.920 0.000 494.480 4.000 ;
@@ -2350,6 +2288,8 @@ MACRO user_proj_example
   PIN wbs_adr_i[14]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.741000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 520.800 0.000 521.360 4.000 ;
@@ -2358,6 +2298,8 @@ MACRO user_proj_example
   PIN wbs_adr_i[15]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.741000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 547.680 0.000 548.240 4.000 ;
@@ -2366,6 +2308,8 @@ MACRO user_proj_example
   PIN wbs_adr_i[16]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.741000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 574.560 0.000 575.120 4.000 ;
@@ -2374,6 +2318,8 @@ MACRO user_proj_example
   PIN wbs_adr_i[17]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.741000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 601.440 0.000 602.000 4.000 ;
@@ -2382,6 +2328,8 @@ MACRO user_proj_example
   PIN wbs_adr_i[18]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.741000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 628.320 0.000 628.880 4.000 ;
@@ -2390,6 +2338,8 @@ MACRO user_proj_example
   PIN wbs_adr_i[19]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.741000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 655.200 0.000 655.760 4.000 ;
@@ -2398,6 +2348,8 @@ MACRO user_proj_example
   PIN wbs_adr_i[1]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.741000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 144.480 0.000 145.040 4.000 ;
@@ -2406,6 +2358,8 @@ MACRO user_proj_example
   PIN wbs_adr_i[20]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.498500 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 682.080 0.000 682.640 4.000 ;
@@ -2414,6 +2368,8 @@ MACRO user_proj_example
   PIN wbs_adr_i[21]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.741000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 708.960 0.000 709.520 4.000 ;
@@ -2422,6 +2378,8 @@ MACRO user_proj_example
   PIN wbs_adr_i[22]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.741000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 735.840 0.000 736.400 4.000 ;
@@ -2430,6 +2388,8 @@ MACRO user_proj_example
   PIN wbs_adr_i[23]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.741000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 762.720 0.000 763.280 4.000 ;
@@ -2438,6 +2398,8 @@ MACRO user_proj_example
   PIN wbs_adr_i[24]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.741000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 789.600 0.000 790.160 4.000 ;
@@ -2446,6 +2408,8 @@ MACRO user_proj_example
   PIN wbs_adr_i[25]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.741000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 816.480 0.000 817.040 4.000 ;
@@ -2454,6 +2418,8 @@ MACRO user_proj_example
   PIN wbs_adr_i[26]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.741000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 843.360 0.000 843.920 4.000 ;
@@ -2462,6 +2428,8 @@ MACRO user_proj_example
   PIN wbs_adr_i[27]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.741000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 870.240 0.000 870.800 4.000 ;
@@ -2470,6 +2438,8 @@ MACRO user_proj_example
   PIN wbs_adr_i[28]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.741000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 897.120 0.000 897.680 4.000 ;
@@ -2478,6 +2448,8 @@ MACRO user_proj_example
   PIN wbs_adr_i[29]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.741000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 924.000 0.000 924.560 4.000 ;
@@ -2486,6 +2458,8 @@ MACRO user_proj_example
   PIN wbs_adr_i[2]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.396000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 180.320 0.000 180.880 4.000 ;
@@ -2494,6 +2468,8 @@ MACRO user_proj_example
   PIN wbs_adr_i[30]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.741000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 950.880 0.000 951.440 4.000 ;
@@ -2502,6 +2478,8 @@ MACRO user_proj_example
   PIN wbs_adr_i[31]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.741000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 977.760 0.000 978.320 4.000 ;
@@ -2510,6 +2488,8 @@ MACRO user_proj_example
   PIN wbs_adr_i[3]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.396000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 216.160 0.000 216.720 4.000 ;
@@ -2518,6 +2498,8 @@ MACRO user_proj_example
   PIN wbs_adr_i[4]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.741000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 252.000 0.000 252.560 4.000 ;
@@ -2526,6 +2508,8 @@ MACRO user_proj_example
   PIN wbs_adr_i[5]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.741000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 278.880 0.000 279.440 4.000 ;
@@ -2534,6 +2518,8 @@ MACRO user_proj_example
   PIN wbs_adr_i[6]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.741000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 305.760 0.000 306.320 4.000 ;
@@ -2542,6 +2528,8 @@ MACRO user_proj_example
   PIN wbs_adr_i[7]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.741000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 332.640 0.000 333.200 4.000 ;
@@ -2550,6 +2538,8 @@ MACRO user_proj_example
   PIN wbs_adr_i[8]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.741000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 359.520 0.000 360.080 4.000 ;
@@ -2558,6 +2548,8 @@ MACRO user_proj_example
   PIN wbs_adr_i[9]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.741000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 386.400 0.000 386.960 4.000 ;
@@ -2566,7 +2558,7 @@ MACRO user_proj_example
   PIN wbs_cyc_i
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 2.369000 ;
+    ANTENNAGATEAREA 0.396000 ;
     ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
@@ -2576,7 +2568,7 @@ MACRO user_proj_example
   PIN wbs_dat_i[0]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 2.204000 ;
+    ANTENNAGATEAREA 0.396000 ;
     ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
@@ -2586,7 +2578,7 @@ MACRO user_proj_example
   PIN wbs_dat_i[10]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 1.102000 ;
+    ANTENNAGATEAREA 0.396000 ;
     ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
@@ -2596,7 +2588,7 @@ MACRO user_proj_example
   PIN wbs_dat_i[11]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 1.102000 ;
+    ANTENNAGATEAREA 0.396000 ;
     ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
@@ -2606,7 +2598,7 @@ MACRO user_proj_example
   PIN wbs_dat_i[12]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 1.183000 ;
+    ANTENNAGATEAREA 0.396000 ;
     ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
@@ -2616,7 +2608,7 @@ MACRO user_proj_example
   PIN wbs_dat_i[13]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 1.102000 ;
+    ANTENNAGATEAREA 0.396000 ;
     ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
@@ -2626,7 +2618,7 @@ MACRO user_proj_example
   PIN wbs_dat_i[14]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 1.183000 ;
+    ANTENNAGATEAREA 0.396000 ;
     ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
@@ -2636,7 +2628,7 @@ MACRO user_proj_example
   PIN wbs_dat_i[15]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 1.183000 ;
+    ANTENNAGATEAREA 0.396000 ;
     ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
@@ -2646,6 +2638,8 @@ MACRO user_proj_example
   PIN wbs_dat_i[16]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.396000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 583.520 0.000 584.080 4.000 ;
@@ -2654,6 +2648,8 @@ MACRO user_proj_example
   PIN wbs_dat_i[17]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.396000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 610.400 0.000 610.960 4.000 ;
@@ -2662,6 +2658,8 @@ MACRO user_proj_example
   PIN wbs_dat_i[18]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.396000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 637.280 0.000 637.840 4.000 ;
@@ -2670,6 +2668,8 @@ MACRO user_proj_example
   PIN wbs_dat_i[19]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.396000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 664.160 0.000 664.720 4.000 ;
@@ -2678,7 +2678,7 @@ MACRO user_proj_example
   PIN wbs_dat_i[1]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 2.204000 ;
+    ANTENNAGATEAREA 0.396000 ;
     ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
@@ -2688,6 +2688,8 @@ MACRO user_proj_example
   PIN wbs_dat_i[20]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.396000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 691.040 0.000 691.600 4.000 ;
@@ -2696,6 +2698,8 @@ MACRO user_proj_example
   PIN wbs_dat_i[21]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.396000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 717.920 0.000 718.480 4.000 ;
@@ -2704,6 +2708,8 @@ MACRO user_proj_example
   PIN wbs_dat_i[22]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.396000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 744.800 0.000 745.360 4.000 ;
@@ -2712,6 +2718,8 @@ MACRO user_proj_example
   PIN wbs_dat_i[23]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.396000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 771.680 0.000 772.240 4.000 ;
@@ -2720,6 +2728,8 @@ MACRO user_proj_example
   PIN wbs_dat_i[24]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.396000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 798.560 0.000 799.120 4.000 ;
@@ -2728,6 +2738,8 @@ MACRO user_proj_example
   PIN wbs_dat_i[25]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.396000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 825.440 0.000 826.000 4.000 ;
@@ -2736,6 +2748,8 @@ MACRO user_proj_example
   PIN wbs_dat_i[26]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.396000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 852.320 0.000 852.880 4.000 ;
@@ -2744,6 +2758,8 @@ MACRO user_proj_example
   PIN wbs_dat_i[27]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.396000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 879.200 0.000 879.760 4.000 ;
@@ -2752,6 +2768,8 @@ MACRO user_proj_example
   PIN wbs_dat_i[28]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.396000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 906.080 0.000 906.640 4.000 ;
@@ -2760,6 +2778,8 @@ MACRO user_proj_example
   PIN wbs_dat_i[29]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.396000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 932.960 0.000 933.520 4.000 ;
@@ -2768,7 +2788,7 @@ MACRO user_proj_example
   PIN wbs_dat_i[2]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 2.204000 ;
+    ANTENNAGATEAREA 0.396000 ;
     ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
@@ -2778,6 +2798,8 @@ MACRO user_proj_example
   PIN wbs_dat_i[30]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.396000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 959.840 0.000 960.400 4.000 ;
@@ -2786,6 +2808,8 @@ MACRO user_proj_example
   PIN wbs_dat_i[31]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.396000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 986.720 0.000 987.280 4.000 ;
@@ -2794,7 +2818,7 @@ MACRO user_proj_example
   PIN wbs_dat_i[3]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 2.204000 ;
+    ANTENNAGATEAREA 0.396000 ;
     ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
@@ -2804,7 +2828,7 @@ MACRO user_proj_example
   PIN wbs_dat_i[4]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 2.204000 ;
+    ANTENNAGATEAREA 0.396000 ;
     ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
@@ -2814,7 +2838,7 @@ MACRO user_proj_example
   PIN wbs_dat_i[5]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 2.204000 ;
+    ANTENNAGATEAREA 0.396000 ;
     ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
@@ -2824,7 +2848,7 @@ MACRO user_proj_example
   PIN wbs_dat_i[6]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 2.204000 ;
+    ANTENNAGATEAREA 0.396000 ;
     ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
@@ -2834,7 +2858,7 @@ MACRO user_proj_example
   PIN wbs_dat_i[7]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 2.204000 ;
+    ANTENNAGATEAREA 0.396000 ;
     ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
@@ -2844,7 +2868,7 @@ MACRO user_proj_example
   PIN wbs_dat_i[8]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 1.102000 ;
+    ANTENNAGATEAREA 0.396000 ;
     ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
@@ -2854,7 +2878,7 @@ MACRO user_proj_example
   PIN wbs_dat_i[9]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 1.102000 ;
+    ANTENNAGATEAREA 0.396000 ;
     ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
@@ -2927,7 +2951,7 @@ MACRO user_proj_example
   PIN wbs_dat_o[16]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.360800 ;
+    ANTENNADIFFAREA 4.731200 ;
     PORT
       LAYER Metal2 ;
         RECT 592.480 0.000 593.040 4.000 ;
@@ -2936,7 +2960,7 @@ MACRO user_proj_example
   PIN wbs_dat_o[17]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.360800 ;
+    ANTENNADIFFAREA 4.731200 ;
     PORT
       LAYER Metal2 ;
         RECT 619.360 0.000 619.920 4.000 ;
@@ -2945,7 +2969,7 @@ MACRO user_proj_example
   PIN wbs_dat_o[18]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.360800 ;
+    ANTENNADIFFAREA 4.731200 ;
     PORT
       LAYER Metal2 ;
         RECT 646.240 0.000 646.800 4.000 ;
@@ -2954,7 +2978,7 @@ MACRO user_proj_example
   PIN wbs_dat_o[19]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.360800 ;
+    ANTENNADIFFAREA 4.731200 ;
     PORT
       LAYER Metal2 ;
         RECT 673.120 0.000 673.680 4.000 ;
@@ -2972,7 +2996,7 @@ MACRO user_proj_example
   PIN wbs_dat_o[20]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.360800 ;
+    ANTENNADIFFAREA 4.731200 ;
     PORT
       LAYER Metal2 ;
         RECT 700.000 0.000 700.560 4.000 ;
@@ -2981,7 +3005,7 @@ MACRO user_proj_example
   PIN wbs_dat_o[21]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.360800 ;
+    ANTENNADIFFAREA 4.731200 ;
     PORT
       LAYER Metal2 ;
         RECT 726.880 0.000 727.440 4.000 ;
@@ -2990,7 +3014,7 @@ MACRO user_proj_example
   PIN wbs_dat_o[22]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.360800 ;
+    ANTENNADIFFAREA 4.731200 ;
     PORT
       LAYER Metal2 ;
         RECT 753.760 0.000 754.320 4.000 ;
@@ -2999,7 +3023,7 @@ MACRO user_proj_example
   PIN wbs_dat_o[23]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.360800 ;
+    ANTENNADIFFAREA 4.731200 ;
     PORT
       LAYER Metal2 ;
         RECT 780.640 0.000 781.200 4.000 ;
@@ -3008,7 +3032,7 @@ MACRO user_proj_example
   PIN wbs_dat_o[24]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.360800 ;
+    ANTENNADIFFAREA 4.731200 ;
     PORT
       LAYER Metal2 ;
         RECT 807.520 0.000 808.080 4.000 ;
@@ -3017,7 +3041,7 @@ MACRO user_proj_example
   PIN wbs_dat_o[25]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.360800 ;
+    ANTENNADIFFAREA 4.731200 ;
     PORT
       LAYER Metal2 ;
         RECT 834.400 0.000 834.960 4.000 ;
@@ -3026,7 +3050,7 @@ MACRO user_proj_example
   PIN wbs_dat_o[26]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.360800 ;
+    ANTENNADIFFAREA 4.731200 ;
     PORT
       LAYER Metal2 ;
         RECT 861.280 0.000 861.840 4.000 ;
@@ -3035,7 +3059,7 @@ MACRO user_proj_example
   PIN wbs_dat_o[27]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.360800 ;
+    ANTENNADIFFAREA 4.731200 ;
     PORT
       LAYER Metal2 ;
         RECT 888.160 0.000 888.720 4.000 ;
@@ -3044,7 +3068,7 @@ MACRO user_proj_example
   PIN wbs_dat_o[28]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.360800 ;
+    ANTENNADIFFAREA 4.731200 ;
     PORT
       LAYER Metal2 ;
         RECT 915.040 0.000 915.600 4.000 ;
@@ -3053,7 +3077,7 @@ MACRO user_proj_example
   PIN wbs_dat_o[29]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.360800 ;
+    ANTENNADIFFAREA 4.731200 ;
     PORT
       LAYER Metal2 ;
         RECT 941.920 0.000 942.480 4.000 ;
@@ -3071,7 +3095,7 @@ MACRO user_proj_example
   PIN wbs_dat_o[30]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.360800 ;
+    ANTENNADIFFAREA 4.731200 ;
     PORT
       LAYER Metal2 ;
         RECT 968.800 0.000 969.360 4.000 ;
@@ -3080,7 +3104,7 @@ MACRO user_proj_example
   PIN wbs_dat_o[31]
     DIRECTION OUTPUT TRISTATE ;
     USE SIGNAL ;
-    ANTENNADIFFAREA 0.360800 ;
+    ANTENNADIFFAREA 4.731200 ;
     PORT
       LAYER Metal2 ;
         RECT 995.680 0.000 996.240 4.000 ;
@@ -3152,8 +3176,6 @@ MACRO user_proj_example
   PIN wbs_sel_i[0]
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.741000 ;
-    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 135.520 0.000 136.080 4.000 ;
@@ -3172,6 +3194,8 @@ MACRO user_proj_example
   PIN wbs_sel_i[2]
     DIRECTION INPUT ;
     USE SIGNAL ;
+    ANTENNAGATEAREA 0.741000 ;
+    ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
         RECT 207.200 0.000 207.760 4.000 ;
@@ -3188,7 +3212,7 @@ MACRO user_proj_example
   PIN wbs_stb_i
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 2.369000 ;
+    ANTENNAGATEAREA 0.498500 ;
     ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
@@ -3198,7 +3222,7 @@ MACRO user_proj_example
   PIN wbs_we_i
     DIRECTION INPUT ;
     USE SIGNAL ;
-    ANTENNAGATEAREA 0.726000 ;
+    ANTENNAGATEAREA 0.498500 ;
     ANTENNADIFFAREA 0.410400 ;
     PORT
       LAYER Metal2 ;
@@ -3209,8 +3233,8 @@ MACRO user_proj_example
       LAYER Metal1 ;
         RECT 6.720 8.550 2793.280 1740.780 ;
       LAYER Metal2 ;
-        RECT 9.660 4.300 2789.220 1740.670 ;
-        RECT 9.660 2.330 54.580 4.300 ;
+        RECT 9.100 4.300 2790.900 1740.670 ;
+        RECT 9.100 2.330 54.580 4.300 ;
         RECT 55.740 2.330 63.540 4.300 ;
         RECT 64.700 2.330 72.500 4.300 ;
         RECT 73.660 2.330 81.460 4.300 ;
@@ -3511,7 +3535,7 @@ MACRO user_proj_example
         RECT 2716.860 2.330 2724.660 4.300 ;
         RECT 2725.820 2.330 2733.620 4.300 ;
         RECT 2734.780 2.330 2742.580 4.300 ;
-        RECT 2743.740 2.330 2789.220 4.300 ;
+        RECT 2743.740 2.330 2790.900 4.300 ;
       LAYER Metal3 ;
         RECT 4.000 1717.820 2796.000 1740.620 ;
         RECT 4.300 1716.660 2795.700 1717.820 ;
@@ -3563,12 +3587,20 @@ MACRO user_proj_example
         RECT 4.300 42.260 2795.700 43.420 ;
         RECT 4.000 2.380 2796.000 42.260 ;
       LAYER Metal4 ;
-        RECT 1106.140 18.010 1173.940 59.830 ;
-        RECT 1176.140 18.010 1250.740 59.830 ;
-        RECT 1252.940 18.010 1327.540 59.830 ;
-        RECT 1329.740 18.010 1404.340 59.830 ;
-        RECT 1406.540 18.010 1481.140 59.830 ;
-        RECT 1483.340 18.010 1553.860 59.830 ;
+        RECT 94.780 15.080 98.740 471.430 ;
+        RECT 100.940 15.080 175.540 471.430 ;
+        RECT 177.740 15.080 252.340 471.430 ;
+        RECT 254.540 15.080 329.140 471.430 ;
+        RECT 331.340 15.080 405.940 471.430 ;
+        RECT 408.140 15.080 482.740 471.430 ;
+        RECT 484.940 15.080 559.540 471.430 ;
+        RECT 561.740 15.080 636.340 471.430 ;
+        RECT 638.540 15.080 713.140 471.430 ;
+        RECT 715.340 15.080 789.940 471.430 ;
+        RECT 792.140 15.080 866.740 471.430 ;
+        RECT 868.940 15.080 943.540 471.430 ;
+        RECT 945.740 15.080 1016.260 471.430 ;
+        RECT 94.780 5.130 1016.260 15.080 ;
   END
 END user_proj_example
 END LIBRARY

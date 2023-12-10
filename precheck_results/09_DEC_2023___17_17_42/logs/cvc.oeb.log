@@ -1,0 +1,2364 @@
+CVC: Log output to /home/mc/encryption_caravel_user_project/precheck_results/09_DEC_2023___17_17_42/tmp/cvc.oeb.log
+CVC: Error output to /home/mc/encryption_caravel_user_project/precheck_results/09_DEC_2023___17_17_42/tmp/cvc.oeb.error.gz
+CVC: Debug output to /home/mc/encryption_caravel_user_project/precheck_results/09_DEC_2023___17_17_42/tmp/cvc.oeb.debug.gz
+CVC: Circuit Validation Check  Version 1.1.5
+CVC: Start: Sat Dec  9 17:53:03 2023
+
+Using the following parameters for CVC (Circuit Validation Check) from /home/mc/encryption_caravel_user_project/precheck_results/09_DEC_2023___17_17_42/tmp/cvcrc.oeb
+CVC_TOP = 'user_project_wrapper'
+CVC_NETLIST = '/home/mc/encryption_caravel_user_project/precheck_results/09_DEC_2023___17_17_42/tmp/ext/user_project_wrapper.cdl.gz'
+CVC_MODE = 'user_project_wrapper'
+CVC_MODEL_FILE = '/home/mc/mpw_precheck/checks/be_checks//tech/gf180mcuD/cvc.models'
+CVC_POWER_FILE = '/home/mc/encryption_caravel_user_project/precheck_results/09_DEC_2023___17_17_42/tmp/cvc.power.user_project_wrapper'
+CVC_FUSE_FILE = ''
+CVC_REPORT_FILE = '/home/mc/encryption_caravel_user_project/precheck_results/09_DEC_2023___17_17_42/tmp/cvc.oeb.log'
+CVC_REPORT_TITLE = 'CVC user_project_wrapper'
+CVC_CIRCUIT_ERROR_LIMIT = '100'
+CVC_SEARCH_LIMIT = '100'
+CVC_LEAK_LIMIT = '0.0002'
+CVC_SOI = 'false'
+CVC_SCRC = 'false'
+CVC_VTH_GATES = 'false'
+CVC_MIN_VTH_GATES = 'false'
+CVC_IGNORE_VTH_FLOATING = 'false'
+CVC_IGNORE_NO_LEAK_FLOATING = 'false'
+CVC_LEAK_OVERVOLTAGE = 'true'
+CVC_LOGIC_DIODES = 'false'
+CVC_ANALOG_GATES = 'true'
+CVC_BACKUP_RESULTS = 'false'
+CVC_MOS_DIODE_ERROR_THRESHOLD = '0'
+CVC_SHORT_ERROR_THRESHOLD = '0'
+CVC_BIAS_ERROR_THRESHOLD = '0'
+CVC_FORWARD_ERROR_THRESHOLD = '0'
+CVC_FLOATING_ERROR_THRESHOLD = '0'
+CVC_GATE_ERROR_THRESHOLD = '0'
+CVC_LEAK?_ERROR_THRESHOLD = '0'
+CVC_EXPECTED_ERROR_THRESHOLD = '0'
+CVC_OVERVOLTAGE_ERROR_THRESHOLD = '0'
+CVC_PARALLEL_CIRCUIT_PORT_LIMIT = '0'
+CVC_CELL_ERROR_LIMIT_FILE = ''
+CVC_CELL_CHECKSUM_FILE = ''
+CVC_LARGE_CIRCUIT_SIZE = '10000000'
+CVC_NET_CHECK_FILE = ''
+CVC_MODEL_CHECK_FILE = ''
+End of parameters
+
+CVC: Reading device model settings...
+CVC: Reading power settings...
+CVC: Parsing netlist /home/mc/encryption_caravel_user_project/precheck_results/09_DEC_2023___17_17_42/tmp/ext/user_project_wrapper.cdl.gz
+Cdl fixed data size 1329780
+Usage CDL: Time: 0  Memory: 42112  I/O: 5048  Swap: 0
+CVC: Counting and linking...
+CVC: Assigning IDs ...
+Usage DB: Time: 0  Memory: 61540  I/O: 5048  Swap: 0
+CVC: 70992(70992) instances, 1043133(1043133) nets, 1068820(1068820) devices.
+CVC: Setting models ...
+Setting model tolerances...
+
+> c 6
+CVC: Shorting switches...
+	Shorted 0 short
+	Shorted 0 sky130_fd_pr__res_generic_l1
+	Shorted 0 sky130_fd_pr__res_generic_m1
+	Shorted 0 sky130_fd_pr__res_generic_m2
+	Shorted 0 sky130_fd_pr__res_generic_m3
+	Shorted 0 sky130_fd_pr__res_generic_m4
+	Shorted 0 sky130_fd_pr__res_generic_m5
+Setting instance power...
+
+ModelList> filename /home/mc/mpw_precheck/checks/be_checks//tech/gf180mcuD/cvc.models
+ Model> cap_mim_2f0_m4m5_noshield         0 C->capacitor  Parameters>
+ Model> mim_2p0fF          0 C->capacitor  Parameters>
+ Model> sky130_fd_pr__cap_mim_m3_1         0 C->capacitor  Parameters>
+ Model> sky130_fd_pr__cap_mim_m3_2         0 C->capacitor  Parameters>
+ Model> sky130_fd_pr__cap_var         0 C->capacitor  Parameters>
+ Model> sky130_fd_pr__cap_var_lvt         0 C->capacitor  Parameters>
+ Model> condiode           0 D->diode      Parameters> Diodes> 1-2
+ Model> diode_nd2ps_06v0      3601 D->diode      Parameters> Diodes> 1-2
+ Model> diode_pd2nw_06v0      3601 D->diode      Parameters> Diodes> 1-2
+ Model> np_6p0             0 D->diode      Parameters> Diodes> 1-2
+ Model> pn_6p0             0 D->diode      Parameters> Diodes> 1-2
+ Model> sky130_fd_pr__diode_pd2nw_05v5         0 D->diode      Parameters> Diodes> 1-2
+ Model> sky130_fd_pr__diode_pd2nw_05v5_lvt         0 D->diode      Parameters> Diodes> 1-2
+ Model> sky130_fd_pr__diode_pd2nw_11v0         0 D->diode      Parameters> Diodes> 1-2
+ Model> sky130_fd_pr__diode_pw2nd_05v5         0 D->diode      Parameters> Diodes> 1-2
+ Model> sky130_fd_pr__diode_pw2nd_05v5_nvt         0 D->diode      Parameters> Diodes> 1-2
+ Model> sky130_fd_pr__diode_pw2nd_11v0         0 D->diode      Parameters> Diodes> 1-2
+ Model> sky130_fd_pr__model__parasitic__diode_ps2dn         0 D->diode      Parameters> Diodes> 1-2
+ Model> sky130_fd_pr__model__parasitic__diode_ps2nw         0 D->diode      Parameters> Diodes> 1-2
+ Model> sky130_fd_pr__model__parasitic__diode_pw2dn         0 D->diode      Parameters> Diodes> 1-2
+ Model> nfet_01v8          0 M->nmos       Parameters> Vth=0.2 Vds=1.8 Vgs=1.8 R=L/W*7000 Diodes> 4-1 4-3
+ Model> nfet_06v0     533139 M->nmos       Parameters> Vth=0.4 R=L/W*7000 Diodes> 4-1 4-3
+ Model> nmos_3p3           0 M->nmos       Parameters> Vth=0.3 R=L/W*7000 Diodes> 4-1 4-3
+ Model> nmos_6p0           0 M->nmos       Parameters> Vth=0.4 R=L/W*7000 Diodes> 4-1 4-3
+ Model> pfet_01v8_hvt         0 M->pmos       Parameters> Vth=-0.2 Vds=1.8 Vgs=1.8 R=L/W*7000 Diodes> 1-4 3-4
+ Model> pfet_06v0     528479 M->pmos       Parameters> Vth=-0.4 R=L/W*7000 Diodes> 1-4 3-4
+ Model> pmos_3p3           0 M->pmos       Parameters> Vth=-0.3 R=L/W*7000 Diodes> 1-4 3-4
+ Model> pmos_6p0           0 M->pmos       Parameters> Vth=-0.4 R=L/W*7000 Diodes> 1-4 3-4
+ Model> sky130_fd_bs_flash__special_sonosfet_star         0 M->nmos       Parameters> Vth=0.2 R=L/W*7000 Diodes> 4-1 4-3
+ Model> sky130_fd_pr__esd_nfet_g5v0d10v5         0 M->nmos       Parameters> Vth=0.2 R=L/W*7000 Diodes> 4-1 4-3
+ Model> sky130_fd_pr__nfet_01v8         0 M->nmos       Parameters> Vth=0.2 Vds=1.8 Vgs=1.8 R=L/W*7000 Diodes> 4-1 4-3
+ Model> sky130_fd_pr__nfet_01v8_lvt         0 M->nmos       Parameters> Vth=0.1 Vds=1.8 Vgs=1.8 R=L/W*7000 Diodes> 4-1 4-3
+ Model> sky130_fd_pr__nfet_03v3_nvt         0 M->nmos       Parameters> Vth=0.2 Vds=3.3 Vgs=3.3 R=L/W*7000 Diodes> 4-1 4-3
+ Model> sky130_fd_pr__nfet_05v0_nvt         0 M->nmos       Parameters> Vth=0.2 R=L/W*7000 Diodes> 4-1 4-3
+ Model> sky130_fd_pr__nfet_g5v0d10v5         0 M->nmos       Parameters> Vth=0.2 R=L/W*7000 Diodes> 4-1 4-3
+ Model> sky130_fd_pr__pfet_01v8         0 M->pmos       Parameters> Vth=-0.2 Vds=1.8 Vgs=1.8 R=L/W*7000 Diodes> 1-4 3-4
+ Model> sky130_fd_pr__pfet_01v8_hvt         0 M->pmos       Parameters> Vth=-0.3 Vds=1.8 Vgs=1.8 R=L/W*7000 Diodes> 1-4 3-4
+ Model> sky130_fd_pr__pfet_01v8_lvt         0 M->pmos       Parameters> Vth=-0.1 Vds=1.8 Vgs=1.8 R=L/W*7000 Diodes> 1-4 3-4
+ Model> sky130_fd_pr__pfet_g5v0d10v5         0 M->pmos       Parameters> Vth=-0.2 R=L/W*7000 Diodes> 1-4 3-4
+ Model> sky130_fd_pr__special_nfet_latch         0 M->nmos       Parameters> Vth=0.2 Vds=1.8 Vgs=1.8 R=L/W*7000 Diodes> 4-1 4-3
+ Model> sky130_fd_pr__special_pfet_pass         0 M->pmos       Parameters> Vth=-0.2 Vds=1.8 Vgs=1.8 R=L/W*7000 Diodes> 1-4 3-4
+ Model> sky130_fd_pr__pnp_05v5         0 Q->bipolar    Parameters>
+ Model> ppolyf_u_1k_6p0         0 R->resistor   Parameters> R=r_length/r_width*50
+ Model> short              0 R->switch_on  Parameters>
+ Model> sky130_fd_pr__reram_reram_cell         0 R->resistor   Parameters> R=10
+ Model> sky130_fd_pr__res_generic_l1         0 R->switch_on  Parameters>
+ Model> sky130_fd_pr__res_generic_m1         0 R->switch_on  Parameters>
+ Model> sky130_fd_pr__res_generic_m2         0 R->switch_on  Parameters>
+ Model> sky130_fd_pr__res_generic_m3         0 R->switch_on  Parameters>
+ Model> sky130_fd_pr__res_generic_m4         0 R->switch_on  Parameters>
+ Model> sky130_fd_pr__res_generic_m5         0 R->switch_on  Parameters>
+ Model> sky130_fd_pr__res_generic_nd         0 R->resistor   Parameters> R=l/w*120
+ Model> sky130_fd_pr__res_generic_nd__hv         0 R->resistor   Parameters> R=l/w*114
+ Model> sky130_fd_pr__res_generic_pd__hv         0 R->resistor   Parameters> R=l/w*191
+ Model> sky130_fd_pr__res_generic_po         0 R->resistor   Parameters> R=l/w*48
+ Model> sky130_fd_pr__res_high_po         0 R->resistor   Parameters> R=l/w*2000
+ Model> sky130_fd_pr__res_xhigh_po         0 R->resistor   Parameters> R=l/w*2000
+ModelList> end
+
+Power List> filename /home/mc/encryption_caravel_user_project/precheck_results/09_DEC_2023___17_17_42/tmp/cvc.power.user_project_wrapper
+ vdd power 5.0 -> 5.0 power
+ vss power 0.0 -> 0.0 power
+ user_clock2 input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ wb_clk_i input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ wb_rst_i input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ wbs_cyc_i input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ wbs_stb_i input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ wbs_we_i input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+io_in[*] input min@0.0 max@5.0
+ ->io_in[0] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[10] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[11] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[12] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[13] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[14] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[15] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[16] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[17] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[18] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[19] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[1] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[20] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[21] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[22] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[23] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[24] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[25] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[26] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[27] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[28] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[29] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[2] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[30] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[31] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[32] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[33] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[34] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[35] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[36] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[37] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[3] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[4] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[5] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[6] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[7] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[8] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->io_in[9] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+la_data_in[*] input min@0.0 max@5.0
+ ->la_data_in[0] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[10] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[11] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[12] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[13] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[14] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[15] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[16] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[17] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[18] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[19] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[1] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[20] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[21] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[22] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[23] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[24] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[25] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[26] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[27] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[28] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[29] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[2] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[30] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[31] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[32] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[33] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[34] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[35] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[36] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[37] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[38] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[39] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[3] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[40] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[41] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[42] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[43] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[44] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[45] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[46] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[47] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[48] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[49] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[4] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[50] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[51] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[52] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[53] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[54] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[55] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[56] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[57] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[58] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[59] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[5] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[60] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[61] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[62] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[63] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[6] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[7] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[8] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_data_in[9] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+la_oenb[*] input min@0.0 max@5.0
+ ->la_oenb[0] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[10] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[11] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[12] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[13] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[14] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[15] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[16] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[17] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[18] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[19] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[1] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[20] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[21] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[22] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[23] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[24] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[25] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[26] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[27] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[28] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[29] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[2] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[30] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[31] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[32] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[33] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[34] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[35] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[36] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[37] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[38] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[39] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[3] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[40] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[41] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[42] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[43] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[44] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[45] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[46] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[47] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[48] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[49] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[4] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[50] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[51] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[52] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[53] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[54] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[55] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[56] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[57] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[58] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[59] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[5] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[60] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[61] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[62] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[63] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[6] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[7] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[8] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->la_oenb[9] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+wbs_adr_i[*] input min@0.0 max@5.0
+ ->wbs_adr_i[0] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_adr_i[10] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_adr_i[11] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_adr_i[12] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_adr_i[13] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_adr_i[14] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_adr_i[15] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_adr_i[16] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_adr_i[17] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_adr_i[18] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_adr_i[19] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_adr_i[1] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_adr_i[20] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_adr_i[21] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_adr_i[22] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_adr_i[23] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_adr_i[24] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_adr_i[25] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_adr_i[26] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_adr_i[27] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_adr_i[28] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_adr_i[29] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_adr_i[2] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_adr_i[30] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_adr_i[31] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_adr_i[3] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_adr_i[4] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_adr_i[5] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_adr_i[6] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_adr_i[7] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_adr_i[8] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_adr_i[9] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+wbs_dat_i[*] input min@0.0 max@5.0
+ ->wbs_dat_i[0] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_dat_i[10] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_dat_i[11] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_dat_i[12] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_dat_i[13] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_dat_i[14] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_dat_i[15] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_dat_i[16] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_dat_i[17] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_dat_i[18] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_dat_i[19] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_dat_i[1] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_dat_i[20] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_dat_i[21] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_dat_i[22] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_dat_i[23] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_dat_i[24] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_dat_i[25] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_dat_i[26] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_dat_i[27] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_dat_i[28] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_dat_i[29] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_dat_i[2] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_dat_i[30] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_dat_i[31] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_dat_i[3] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_dat_i[4] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_dat_i[5] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_dat_i[6] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_dat_i[7] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_dat_i[8] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_dat_i[9] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+wbs_sel_i[*] input min@0.0 max@5.0
+ ->wbs_sel_i[0] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_sel_i[1] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_sel_i[2] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+ ->wbs_sel_i[3] input min@0.0 max@5.0 -> min@0.0 max@5.0 input
+> expected values
+> macros
+Power List> end
+
+CVC: Linking devices...
+Usage EQUIV: Time: 0  Memory: 248420  I/O: 5552  Swap: 0
+Power nets 250
+Hash dump:parameter->resistance map
+Contains 277 buckets, 549 elements
+Element count 0, 32
+Element count 1, 78
+Element count 2, 82
+Element count 3, 44
+Element count 4, 31
+Element count 5, 9
+Element count 6, 1
+Unused hash: 0.12, average depth 2.84
+Hash dump:text->circuit map
+Contains 79 buckets, 101 elements
+Element count 0, 16
+Element count 1, 34
+Element count 2, 23
+Element count 3, 5
+Element count 4, 0
+Element count 5, 0
+Element count 6, 1
+Unused hash: 0.20, average depth 2.05
+Hash dump:string->text map
+Contains 53201 buckets, 77328 elements
+Element count 0, 12569
+Element count 1, 17855
+Element count 2, 13194
+Element count 3, 6368
+Element count 4, 2359
+Element count 5, 648
+Element count 6, 166
+Element count 7, 31
+Element count 8, 8
+Element count 9, 2
+Element count 10, 1
+Unused hash: 0.24, average depth 2.46
+CVC: Shorting non conducting resistors...
+CVC: Calculating resistor voltages...
+Usage RES: Time: 0  Memory: 248676  I/O: 5560  Swap: 0
+Power nets 250
+CVC: Calculating min/max voltages...
+Processing trivial nets found 5219 trivial nets
+CVC: Ignoring invalid calculations...
+CVC:   Removed 51 calculations
+Copying master nets
+CVC: Ignoring non-conducting devices...
+CVC:   Ignored 0 devices
+Usage MIN/MAX1: Time: 2  Memory: 249060  I/O: 5568  Swap: 0
+Power nets 7980
+! Checking forward bias diode errors: 
+
+! Checking nmos source/drain vs bias errors: 
+
+! Checking nmos gate vs source errors: 
+
+! Checking pmos source/drain vs bias errors: 
+
+! Checking pmos gate vs source errors: 
+
+Usage ERROR: Time: 2  Memory: 249060  I/O: 5568  Swap: 0
+CVC: Propagating Simulation voltages 1...
+Usage SIM1: Time: 3  Memory: 262500  I/O: 5576  Swap: 0
+Power nets 7980
+CVC: Propagating Simulation voltages 3...
+Usage SIM2: Time: 3  Memory: 271588  I/O: 5584  Swap: 0
+Power nets 7980
+Added 0 latch voltages
+CVC: Calculating min/max voltages...
+Processing trivial nets found 5219 trivial nets
+CVC: Ignoring invalid calculations...
+CVC:   Removed 0 calculations
+Copying master nets
+CVC: Ignoring non-conducting devices...
+CVC:   Ignored 0 devices
+Usage MIN/MAX2: Time: 3  Memory: 272356  I/O: 5584  Swap: 0
+Power nets 15659
+! Checking overvoltage errors
+
+! Checking nmos possible leak errors: 
+
+! Checking pmos possible leak errors: 
+
+! Checking mos floating input errors:
+
+! Checking expected values:
+
+CVC: Error Counts
+CVC: Fuse Problems:         0
+CVC: Min Voltage Conflicts: 0
+CVC: Max Voltage Conflicts: 0
+CVC: Leaks:                 0
+CVC: LDD drain->source:     0
+CVC: HI-Z Inputs:           0
+CVC: Forward Bias Diodes:   0
+CVC: NMOS Source vs Bulk:   0
+CVC: NMOS Gate vs Source:   0
+CVC: NMOS Possible Leaks:   0
+CVC: PMOS Source vs Bulk:   0
+CVC: PMOS Gate vs Source:   0
+CVC: PMOS Possible Leaks:   0
+CVC: Overvoltage-VBG:       0
+CVC: Overvoltage-VBS:       0
+CVC: Overvoltage-VDS:       0
+CVC: Overvoltage-VGS:       0
+CVC: Model errors:          0
+CVC: Unexpected voltage :   0
+CVC: Total:                 0
+Usage Total: Time: 3  Memory: 272868  I/O: 5624  Swap: 0
+Virtual net update/access 6310968/116563979
+CVC: Log output to /home/mc/encryption_caravel_user_project/precheck_results/09_DEC_2023___17_17_42/tmp/cvc.oeb.log
+CVC: End: Sat Dec  9 17:53:07 2023
+
+
+> gn io_in[0]
+Net io_in[0]: 0
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[1]
+Net io_in[1]: 11
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[2]
+Net io_in[2]: 22
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[3]
+Net io_in[3]: 31
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[4]
+Net io_in[4]: 32
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[5]
+Net io_in[5]: 33
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[6]
+Net io_in[6]: 34
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[7]
+Net io_in[7]: 35
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[8]
+Net io_in[8]: 36
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[9]
+Net io_in[9]: 37
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[10]
+Net io_in[10]: 1
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[11]
+Net io_in[11]: 2
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[12]
+Net io_in[12]: 3
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[13]
+Net io_in[13]: 4
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[14]
+Net io_in[14]: 5
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[15]
+Net io_in[15]: 6
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[16]
+Net io_in[16]: 7
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[17]
+Net io_in[17]: 8
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[18]
+Net io_in[18]: 9
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[19]
+Net io_in[19]: 10
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[20]
+Net io_in[20]: 12
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[21]
+Net io_in[21]: 13
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[22]
+Net io_in[22]: 14
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[23]
+Net io_in[23]: 15
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[24]
+Net io_in[24]: 16
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[25]
+Net io_in[25]: 17
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[26]
+Net io_in[26]: 18
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[27]
+Net io_in[27]: 19
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[28]
+Net io_in[28]: 20
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[29]
+Net io_in[29]: 21
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[30]
+Net io_in[30]: 23
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[31]
+Net io_in[31]: 24
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[32]
+Net io_in[32]: 25
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[33]
+Net io_in[33]: 26
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[34]
+Net io_in[34]: 27
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[35]
+Net io_in[35]: 28
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[36]
+Net io_in[36]: 29
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[37]
+Net io_in[37]: 30
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_out[0]
+Net io_out[0]: 76
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_out[0]
+->vss
+vss power 0.0 -> 0.0 power
+
+Initial max path
+io_out[0]
+->vdd
+vdd power 5.0 -> 5.0 power
+
+Min path
+io_out[0]
+->vss r=5122
+vss power 0.0 -> 0.0 power
+
+Max path
+io_out[0]
+->vdd r=2869
+vdd power 5.0 -> 5.0 power
+
+
+> gn io_out[1]
+Net io_out[1]: 87
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_out[1]
+->vss
+vss power 0.0 -> 0.0 power
+
+Initial max path
+io_out[1]
+->vdd
+vdd power 5.0 -> 5.0 power
+
+Min path
+io_out[1]
+->vss r=5122
+vss power 0.0 -> 0.0 power
+
+Max path
+io_out[1]
+->vdd r=2869
+vdd power 5.0 -> 5.0 power
+
+
+> gn io_out[2]
+Net io_out[2]: 98
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_out[2]
+->vss
+vss power 0.0 -> 0.0 power
+
+Initial max path
+io_out[2]
+->vdd
+vdd power 5.0 -> 5.0 power
+
+Min path
+io_out[2]
+->vss r=5122
+vss power 0.0 -> 0.0 power
+
+Max path
+io_out[2]
+->vdd r=2869
+vdd power 5.0 -> 5.0 power
+
+
+> gn io_out[3]
+Net io_out[3]: 107
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_out[3]
+->vss
+vss power 0.0 -> 0.0 power
+
+Initial max path
+io_out[3]
+->vdd
+vdd power 5.0 -> 5.0 power
+
+Min path
+io_out[3]
+->vss r=5122
+vss power 0.0 -> 0.0 power
+
+Max path
+io_out[3]
+->vdd r=2869
+vdd power 5.0 -> 5.0 power
+
+
+> gn io_out[4]
+Net io_out[4]: 108
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_out[4]
+->vss
+vss power 0.0 -> 0.0 power
+
+Initial max path
+io_out[4]
+->vdd
+vdd power 5.0 -> 5.0 power
+
+Min path
+io_out[4]
+->vss r=5122
+vss power 0.0 -> 0.0 power
+
+Max path
+io_out[4]
+->vdd r=2869
+vdd power 5.0 -> 5.0 power
+
+
+> gn io_out[5]
+Net io_out[5]: 109
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_out[5]
+->vss
+vss power 0.0 -> 0.0 power
+
+Initial max path
+io_out[5]
+->vdd
+vdd power 5.0 -> 5.0 power
+
+Min path
+io_out[5]
+->vss r=5122
+vss power 0.0 -> 0.0 power
+
+Max path
+io_out[5]
+->vdd r=2869
+vdd power 5.0 -> 5.0 power
+
+
+> gn io_out[6]
+Net io_out[6]: 110
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_out[6]
+->vss
+vss power 0.0 -> 0.0 power
+
+Initial max path
+io_out[6]
+->vdd
+vdd power 5.0 -> 5.0 power
+
+Min path
+io_out[6]
+->vss r=5122
+vss power 0.0 -> 0.0 power
+
+Max path
+io_out[6]
+->vdd r=2869
+vdd power 5.0 -> 5.0 power
+
+
+> gn io_out[7]
+Net io_out[7]: 111
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_out[7]
+->vss
+vss power 0.0 -> 0.0 power
+
+Initial max path
+io_out[7]
+->vdd
+vdd power 5.0 -> 5.0 power
+
+Min path
+io_out[7]
+->vss r=5122
+vss power 0.0 -> 0.0 power
+
+Max path
+io_out[7]
+->vdd r=2869
+vdd power 5.0 -> 5.0 power
+
+
+> gn io_out[8]
+Net io_out[8]: 112
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_out[9]
+Net io_out[9]: 113
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_out[10]
+Net io_out[10]: 77
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_out[11]
+Net io_out[11]: 78
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_out[12]
+Net io_out[12]: 79
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_out[13]
+Net io_out[13]: 80
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_out[14]
+Net io_out[14]: 81
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_out[15]
+Net io_out[15]: 82
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_out[16]
+Net io_out[16]: 83
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_out[17]
+Net io_out[17]: 84
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_out[18]
+Net io_out[18]: 85
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_out[19]
+Net io_out[19]: 86
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_out[20]
+Net io_out[20]: 88
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_out[21]
+Net io_out[21]: 89
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_out[22]
+Net io_out[22]: 90
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_out[23]
+Net io_out[23]: 91
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_out[24]
+Net io_out[24]: 92
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_out[25]
+Net io_out[25]: 93
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_out[26]
+Net io_out[26]: 94
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_out[27]
+Net io_out[27]: 95
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_out[28]
+Net io_out[28]: 96
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_out[29]
+Net io_out[29]: 97
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_out[30]
+Net io_out[30]: 99
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_out[30]
+->vss
+vss power 0.0 -> 0.0 power
+
+Initial max path
+io_out[30]
+->vdd
+vdd power 5.0 -> 5.0 power
+
+Min path
+io_out[30]
+->vss r=5122
+vss power 0.0 -> 0.0 power
+
+Max path
+io_out[30]
+->vdd r=2869
+vdd power 5.0 -> 5.0 power
+
+
+> gn io_out[31]
+Net io_out[31]: 100
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_out[31]
+->vss
+vss power 0.0 -> 0.0 power
+
+Initial max path
+io_out[31]
+->vdd
+vdd power 5.0 -> 5.0 power
+
+Min path
+io_out[31]
+->vss r=5122
+vss power 0.0 -> 0.0 power
+
+Max path
+io_out[31]
+->vdd r=2869
+vdd power 5.0 -> 5.0 power
+
+
+> gn io_out[32]
+Net io_out[32]: 101
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_out[32]
+->vss
+vss power 0.0 -> 0.0 power
+
+Initial max path
+io_out[32]
+->vdd
+vdd power 5.0 -> 5.0 power
+
+Min path
+io_out[32]
+->vss r=5122
+vss power 0.0 -> 0.0 power
+
+Max path
+io_out[32]
+->vdd r=2869
+vdd power 5.0 -> 5.0 power
+
+
+> gn io_out[33]
+Net io_out[33]: 102
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_out[33]
+->vss
+vss power 0.0 -> 0.0 power
+
+Initial max path
+io_out[33]
+->vdd
+vdd power 5.0 -> 5.0 power
+
+Min path
+io_out[33]
+->vss r=5122
+vss power 0.0 -> 0.0 power
+
+Max path
+io_out[33]
+->vdd r=2869
+vdd power 5.0 -> 5.0 power
+
+
+> gn io_out[34]
+Net io_out[34]: 103
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_out[34]
+->vss
+vss power 0.0 -> 0.0 power
+
+Initial max path
+io_out[34]
+->vdd
+vdd power 5.0 -> 5.0 power
+
+Min path
+io_out[34]
+->vss r=5122
+vss power 0.0 -> 0.0 power
+
+Max path
+io_out[34]
+->vdd r=2869
+vdd power 5.0 -> 5.0 power
+
+
+> gn io_out[35]
+Net io_out[35]: 104
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_out[35]
+->vss
+vss power 0.0 -> 0.0 power
+
+Initial max path
+io_out[35]
+->vdd
+vdd power 5.0 -> 5.0 power
+
+Min path
+io_out[35]
+->vss r=5122
+vss power 0.0 -> 0.0 power
+
+Max path
+io_out[35]
+->vdd r=2869
+vdd power 5.0 -> 5.0 power
+
+
+> gn io_out[36]
+Net io_out[36]: 105
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_out[36]
+->vss
+vss power 0.0 -> 0.0 power
+
+Initial max path
+io_out[36]
+->vdd
+vdd power 5.0 -> 5.0 power
+
+Min path
+io_out[36]
+->vss r=5122
+vss power 0.0 -> 0.0 power
+
+Max path
+io_out[36]
+->vdd r=2869
+vdd power 5.0 -> 5.0 power
+
+
+> gn io_out[37]
+Net io_out[37]: 106
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_out[37]
+->vss
+vss power 0.0 -> 0.0 power
+
+Initial max path
+io_out[37]
+->vdd
+vdd power 5.0 -> 5.0 power
+
+Min path
+io_out[37]
+->vss r=5122
+vss power 0.0 -> 0.0 power
+
+Max path
+io_out[37]
+->vdd r=2869
+vdd power 5.0 -> 5.0 power
+
+
+> gn io_oeb[0]
+Net io_oeb[0]: 38
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_oeb[0]
+->vss
+vss power 0.0 -> 0.0 power
+
+Initial max path
+io_oeb[0]
+->vdd
+vdd power 5.0 -> 5.0 power
+
+Min path
+io_oeb[0]
+->vss r=5122
+vss power 0.0 -> 0.0 power
+
+Max path
+io_oeb[0]
+->vdd r=2869
+vdd power 5.0 -> 5.0 power
+
+
+> gn io_oeb[1]
+Net io_oeb[1]: 49
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_oeb[1]
+->vss
+vss power 0.0 -> 0.0 power
+
+Initial max path
+io_oeb[1]
+->vdd
+vdd power 5.0 -> 5.0 power
+
+Min path
+io_oeb[1]
+->vss r=5122
+vss power 0.0 -> 0.0 power
+
+Max path
+io_oeb[1]
+->vdd r=2869
+vdd power 5.0 -> 5.0 power
+
+
+> gn io_oeb[2]
+Net io_oeb[2]: 60
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_oeb[2]
+->vss
+vss power 0.0 -> 0.0 power
+
+Initial max path
+io_oeb[2]
+->vdd
+vdd power 5.0 -> 5.0 power
+
+Min path
+io_oeb[2]
+->vss r=5122
+vss power 0.0 -> 0.0 power
+
+Max path
+io_oeb[2]
+->vdd r=2869
+vdd power 5.0 -> 5.0 power
+
+
+> gn io_oeb[3]
+Net io_oeb[3]: 69
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_oeb[3]
+->vss
+vss power 0.0 -> 0.0 power
+
+Initial max path
+io_oeb[3]
+->vdd
+vdd power 5.0 -> 5.0 power
+
+Min path
+io_oeb[3]
+->vss r=5122
+vss power 0.0 -> 0.0 power
+
+Max path
+io_oeb[3]
+->vdd r=2869
+vdd power 5.0 -> 5.0 power
+
+
+> gn io_oeb[4]
+Net io_oeb[4]: 70
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_oeb[4]
+->vss
+vss power 0.0 -> 0.0 power
+
+Initial max path
+io_oeb[4]
+->vdd
+vdd power 5.0 -> 5.0 power
+
+Min path
+io_oeb[4]
+->vss r=5122
+vss power 0.0 -> 0.0 power
+
+Max path
+io_oeb[4]
+->vdd r=2869
+vdd power 5.0 -> 5.0 power
+
+
+> gn io_oeb[5]
+Net io_oeb[5]: 71
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_oeb[5]
+->vss
+vss power 0.0 -> 0.0 power
+
+Initial max path
+io_oeb[5]
+->vdd
+vdd power 5.0 -> 5.0 power
+
+Min path
+io_oeb[5]
+->vss r=5122
+vss power 0.0 -> 0.0 power
+
+Max path
+io_oeb[5]
+->vdd r=2869
+vdd power 5.0 -> 5.0 power
+
+
+> gn io_oeb[6]
+Net io_oeb[6]: 72
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_oeb[6]
+->vss
+vss power 0.0 -> 0.0 power
+
+Initial max path
+io_oeb[6]
+->vdd
+vdd power 5.0 -> 5.0 power
+
+Min path
+io_oeb[6]
+->vss r=5122
+vss power 0.0 -> 0.0 power
+
+Max path
+io_oeb[6]
+->vdd r=2869
+vdd power 5.0 -> 5.0 power
+
+
+> gn io_oeb[7]
+Net io_oeb[7]: 73
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_oeb[7]
+->vss
+vss power 0.0 -> 0.0 power
+
+Initial max path
+io_oeb[7]
+->vdd
+vdd power 5.0 -> 5.0 power
+
+Min path
+io_oeb[7]
+->vss r=5122
+vss power 0.0 -> 0.0 power
+
+Max path
+io_oeb[7]
+->vdd r=2869
+vdd power 5.0 -> 5.0 power
+
+
+> gn io_oeb[8]
+Net io_oeb[8]: 74
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_oeb[9]
+Net io_oeb[9]: 75
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_oeb[10]
+Net io_oeb[10]: 39
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_oeb[11]
+Net io_oeb[11]: 40
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_oeb[12]
+Net io_oeb[12]: 41
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_oeb[13]
+Net io_oeb[13]: 42
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_oeb[14]
+Net io_oeb[14]: 43
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_oeb[15]
+Net io_oeb[15]: 44
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_oeb[16]
+Net io_oeb[16]: 45
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_oeb[17]
+Net io_oeb[17]: 46
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_oeb[18]
+Net io_oeb[18]: 47
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_oeb[19]
+Net io_oeb[19]: 48
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_oeb[20]
+Net io_oeb[20]: 50
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_oeb[21]
+Net io_oeb[21]: 51
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_oeb[22]
+Net io_oeb[22]: 52
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_oeb[23]
+Net io_oeb[23]: 53
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_oeb[24]
+Net io_oeb[24]: 54
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_oeb[25]
+Net io_oeb[25]: 55
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_oeb[26]
+Net io_oeb[26]: 56
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_oeb[27]
+Net io_oeb[27]: 57
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_oeb[28]
+Net io_oeb[28]: 58
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_oeb[29]
+Net io_oeb[29]: 59
+ connections: gate 0 source 0 drain 0 bulk 0
+
+
+> gn io_oeb[30]
+Net io_oeb[30]: 61
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_oeb[30]
+->vss
+vss power 0.0 -> 0.0 power
+
+Initial max path
+io_oeb[30]
+->vdd
+vdd power 5.0 -> 5.0 power
+
+Min path
+io_oeb[30]
+->vss r=5122
+vss power 0.0 -> 0.0 power
+
+Max path
+io_oeb[30]
+->vdd r=2869
+vdd power 5.0 -> 5.0 power
+
+
+> gn io_oeb[31]
+Net io_oeb[31]: 62
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_oeb[31]
+->vss
+vss power 0.0 -> 0.0 power
+
+Initial max path
+io_oeb[31]
+->vdd
+vdd power 5.0 -> 5.0 power
+
+Min path
+io_oeb[31]
+->vss r=5122
+vss power 0.0 -> 0.0 power
+
+Max path
+io_oeb[31]
+->vdd r=2869
+vdd power 5.0 -> 5.0 power
+
+
+> gn io_oeb[32]
+Net io_oeb[32]: 63
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_oeb[32]
+->vss
+vss power 0.0 -> 0.0 power
+
+Initial max path
+io_oeb[32]
+->vdd
+vdd power 5.0 -> 5.0 power
+
+Min path
+io_oeb[32]
+->vss r=5122
+vss power 0.0 -> 0.0 power
+
+Max path
+io_oeb[32]
+->vdd r=2869
+vdd power 5.0 -> 5.0 power
+
+
+> gn io_oeb[33]
+Net io_oeb[33]: 64
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_oeb[33]
+->vss
+vss power 0.0 -> 0.0 power
+
+Initial max path
+io_oeb[33]
+->vdd
+vdd power 5.0 -> 5.0 power
+
+Min path
+io_oeb[33]
+->vss r=5122
+vss power 0.0 -> 0.0 power
+
+Max path
+io_oeb[33]
+->vdd r=2869
+vdd power 5.0 -> 5.0 power
+
+
+> gn io_oeb[34]
+Net io_oeb[34]: 65
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_oeb[34]
+->vss
+vss power 0.0 -> 0.0 power
+
+Initial max path
+io_oeb[34]
+->vdd
+vdd power 5.0 -> 5.0 power
+
+Min path
+io_oeb[34]
+->vss r=5122
+vss power 0.0 -> 0.0 power
+
+Max path
+io_oeb[34]
+->vdd r=2869
+vdd power 5.0 -> 5.0 power
+
+
+> gn io_oeb[35]
+Net io_oeb[35]: 66
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_oeb[35]
+->vss
+vss power 0.0 -> 0.0 power
+
+Initial max path
+io_oeb[35]
+->vdd
+vdd power 5.0 -> 5.0 power
+
+Min path
+io_oeb[35]
+->vss r=5122
+vss power 0.0 -> 0.0 power
+
+Max path
+io_oeb[35]
+->vdd r=2869
+vdd power 5.0 -> 5.0 power
+
+
+> gn io_oeb[36]
+Net io_oeb[36]: 67
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_oeb[36]
+->vss
+vss power 0.0 -> 0.0 power
+
+Initial max path
+io_oeb[36]
+->vdd
+vdd power 5.0 -> 5.0 power
+
+Min path
+io_oeb[36]
+->vss r=5122
+vss power 0.0 -> 0.0 power
+
+Max path
+io_oeb[36]
+->vdd r=2869
+vdd power 5.0 -> 5.0 power
+
+
+> gn io_oeb[37]
+Net io_oeb[37]: 68
+ connections: gate 0 source 1 drain 1 bulk 0
+
+Initial min path
+io_oeb[37]
+->vss
+vss power 0.0 -> 0.0 power
+
+Initial max path
+io_oeb[37]
+->vdd
+vdd power 5.0 -> 5.0 power
+
+Min path
+io_oeb[37]
+->vss r=5122
+vss power 0.0 -> 0.0 power
+
+Max path
+io_oeb[37]
+->vdd r=2869
+vdd power 5.0 -> 5.0 power
+
+
+> gn io_in[0]
+Net io_in[0]: 0
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[1]
+Net io_in[1]: 11
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[2]
+Net io_in[2]: 22
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[3]
+Net io_in[3]: 31
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[4]
+Net io_in[4]: 32
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[5]
+Net io_in[5]: 33
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[6]
+Net io_in[6]: 34
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[7]
+Net io_in[7]: 35
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[8]
+Net io_in[8]: 36
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[9]
+Net io_in[9]: 37
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[10]
+Net io_in[10]: 1
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[11]
+Net io_in[11]: 2
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[12]
+Net io_in[12]: 3
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[13]
+Net io_in[13]: 4
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[14]
+Net io_in[14]: 5
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[15]
+Net io_in[15]: 6
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[16]
+Net io_in[16]: 7
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[17]
+Net io_in[17]: 8
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[18]
+Net io_in[18]: 9
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[19]
+Net io_in[19]: 10
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[20]
+Net io_in[20]: 12
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[21]
+Net io_in[21]: 13
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[22]
+Net io_in[22]: 14
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[23]
+Net io_in[23]: 15
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[24]
+Net io_in[24]: 16
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[25]
+Net io_in[25]: 17
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[26]
+Net io_in[26]: 18
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[27]
+Net io_in[27]: 19
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[28]
+Net io_in[28]: 20
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[29]
+Net io_in[29]: 21
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[30]
+Net io_in[30]: 23
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[31]
+Net io_in[31]: 24
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[32]
+Net io_in[32]: 25
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[33]
+Net io_in[33]: 26
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[34]
+Net io_in[34]: 27
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[35]
+Net io_in[35]: 28
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[36]
+Net io_in[36]: 29
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn io_in[37]
+Net io_in[37]: 30
+ connections: gate 0 source 0 drain 0 bulk 0
+ base definition io_in[*]
+  default min unknown
+  default sim unknown
+  default max unknown
+ defined as  input min@0.0 max@5.0 =>  min@0.0 max@5.0 input
+
+
+> gn analog_io[0]
+Could not find net /analog_io[0]
+
+> gn analog_io[1]
+Could not find net /analog_io[1]
+
+> gn analog_io[2]
+Could not find net /analog_io[2]
+
+> gn analog_io[3]
+Could not find net /analog_io[3]
+
+> gn analog_io[4]
+Could not find net /analog_io[4]
+
+> gn analog_io[5]
+Could not find net /analog_io[5]
+
+> gn analog_io[6]
+Could not find net /analog_io[6]
+
+> gn analog_io[7]
+Could not find net /analog_io[7]
+
+> gn analog_io[8]
+Could not find net /analog_io[8]
+
+> gn analog_io[9]
+Could not find net /analog_io[9]
+
+> gn analog_io[10]
+Could not find net /analog_io[10]
+
+> gn analog_io[11]
+Could not find net /analog_io[11]
+
+> gn analog_io[12]
+Could not find net /analog_io[12]
+
+> gn analog_io[13]
+Could not find net /analog_io[13]
+
+> gn analog_io[14]
+Could not find net /analog_io[14]
+
+> gn analog_io[15]
+Could not find net /analog_io[15]
+
+> gn analog_io[16]
+Could not find net /analog_io[16]
+
+> gn analog_io[17]
+Could not find net /analog_io[17]
+
+> gn analog_io[18]
+Could not find net /analog_io[18]
+
+> gn analog_io[19]
+Could not find net /analog_io[19]
+
+> gn analog_io[20]
+Could not find net /analog_io[20]
+
+> gn analog_io[21]
+Could not find net /analog_io[21]
+
+> gn analog_io[22]
+Could not find net /analog_io[22]
+
+> gn analog_io[23]
+Could not find net /analog_io[23]
+
+> gn analog_io[24]
+Could not find net /analog_io[24]
+
+> gn analog_io[25]
+Could not find net /analog_io[25]
+
+> gn analog_io[26]
+Could not find net /analog_io[26]
+
+> gn analog_io[27]
+Could not find net /analog_io[27]
+
+> gn analog_io[28]
+Could not find net /analog_io[28]
+
+> q
+Runtime: 0:00:04 (hh:mm:ss)
